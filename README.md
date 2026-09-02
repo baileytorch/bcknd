@@ -92,3 +92,6 @@ Clases de Backend con Django
     - Finalmente, en nuestra app creamos un directorio templates, donde pondremos nuestras vistas.
     - Dentro de mi_app/templates creamos la vista HTML que será renderizada por el método creado anteriormente.
     - Cuando iniciemos nuevamente nuestro servidor, debiera cargar la vista recién creada en lugar de la vista Django por defecto.
+
+7. **Página de Error 404 Genérica**
+    - Si python NO encuentra un recurso (página) solicitado para cargar, arrojará una página de error con información del servidor, lo que es un problema de seguridad, debemos corregirlo.

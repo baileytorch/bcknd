@@ -1,2 +1,4 @@
 /ambiente
 /db.sqlite3
+core/__pycache__/settings.cpython-314.pyc
+core/__pycache__/urls.cpython-314.pyc
