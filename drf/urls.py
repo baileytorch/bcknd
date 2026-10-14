@@ -1,5 +1,5 @@
 """
-URL configuration for core project.
+URL configuration for drf project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/6.1/topics/http/urls/
@@ -16,10 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
-from mecapp.views import inicio_view
+from bibliohub import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', inicio_view, name='inicio'),
+    path('', views.bienvenida, name='bienvenida'),
 ]
