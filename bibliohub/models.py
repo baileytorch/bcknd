@@ -24,7 +24,7 @@ class Pais(models.Model):
 
 class Region(models.Model):
     codigo = models.CharField(verbose_name=str_codigo,max_length=2,null=False,blank=False)
-    region = models.CharField(verbose_name="Región",max_length=30,null=False,blank=False)
+    region = models.CharField(verbose_name="Región",max_length=60,null=False,blank=False)
     habilitado = models.BooleanField(verbose_name=str_habilitado,default=True,null=False,blank=False)
     created_at = models.DateTimeField(verbose_name=str_fecha_creacion,auto_now_add=True)
     updated_at = models.DateTimeField(verbose_name=str_fecha_actualizacion,auto_now=True)

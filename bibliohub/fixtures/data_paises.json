@@ -1,2492 +1,3488 @@
 [
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 1,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Aruba",
-            "nacionalidad": "",
+            "nacionalidad": "arubeña",
             "iso_2": "AW",
-            "iso_3": "ABW"
+            "iso_3": "ABW",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 2,
-        "fields": {
-            "nombre": "Afghanistan",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Afganistán",
+            "nacionalidad": "afgana",
             "iso_2": "AF",
-            "iso_3": "AFG"
+            "iso_3": "AFG",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 3,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Angola",
-            "nacionalidad": "",
+            "nacionalidad": "angoleña",
             "iso_2": "AO",
-            "iso_3": "AGO"
+            "iso_3": "AGO",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 4,
-        "fields": {
-            "nombre": "Anguilla",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Anguila",
+            "nacionalidad": "anguilense",
             "iso_2": "AI",
-            "iso_3": "AIA"
+            "iso_3": "AIA",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 5,
-        "fields": {
-            "nombre": "Åland Islands",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Islas Åland",
+            "nacionalidad": "alandesa",
             "iso_2": "AX",
-            "iso_3": "ALA"
+            "iso_3": "ALA",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 6,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Albania",
-            "nacionalidad": "",
+            "nacionalidad": "albanesa",
             "iso_2": "AL",
-            "iso_3": "ALB"
+            "iso_3": "ALB",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 7,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Andorra",
-            "nacionalidad": "",
+            "nacionalidad": "andorrana",
             "iso_2": "AD",
-            "iso_3": "AND"
+            "iso_3": "AND",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 8,
-        "fields": {
-            "nombre": "United Arab Emirates",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Emiratos Árabes Unidos",
+            "nacionalidad": "emiratí",
             "iso_2": "AE",
-            "iso_3": "ARE"
+            "iso_3": "ARE",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 9,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Argentina",
-            "nacionalidad": "",
+            "nacionalidad": "argentina",
             "iso_2": "AR",
-            "iso_3": "ARG"
+            "iso_3": "ARG",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 10,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Armenia",
-            "nacionalidad": "",
+            "nacionalidad": "armenia",
             "iso_2": "AM",
-            "iso_3": "ARM"
+            "iso_3": "ARM",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 11,
-        "fields": {
-            "nombre": "American Samoa",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Samoa Americana",
+            "nacionalidad": "samoana americana",
             "iso_2": "AS",
-            "iso_3": "ASM"
+            "iso_3": "ASM",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 12,
-        "fields": {
-            "nombre": "Antarctica",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Antártida",
+            "nacionalidad": "antártica",
             "iso_2": "AQ",
-            "iso_3": "ATA"
+            "iso_3": "ATA",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 13,
-        "fields": {
-            "nombre": "French Southern Territories",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Territorios Australes Franceses",
+            "nacionalidad": "francesa",
             "iso_2": "TF",
-            "iso_3": "ATF"
+            "iso_3": "ATF",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 14,
-        "fields": {
-            "nombre": "Antigua and Barbuda",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Antigua y Barbuda",
+            "nacionalidad": "antiguana",
             "iso_2": "AG",
-            "iso_3": "ATG"
+            "iso_3": "ATG",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 15,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Australia",
-            "nacionalidad": "",
+            "nacionalidad": "australiana",
             "iso_2": "AU",
-            "iso_3": "AUS"
+            "iso_3": "AUS",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 16,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Austria",
-            "nacionalidad": "",
+            "nacionalidad": "austriaca",
             "iso_2": "AT",
-            "iso_3": "AUT"
+            "iso_3": "AUT",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 17,
-        "fields": {
-            "nombre": "Azerbaijan",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Azerbaiyán",
+            "nacionalidad": "azerbaiyana",
             "iso_2": "AZ",
-            "iso_3": "AZE"
+            "iso_3": "AZE",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 18,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Burundi",
-            "nacionalidad": "",
+            "nacionalidad": "burundesa",
             "iso_2": "BI",
-            "iso_3": "BDI"
+            "iso_3": "BDI",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 19,
-        "fields": {
-            "nombre": "Belgium",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Bélgica",
+            "nacionalidad": "belga",
             "iso_2": "BE",
-            "iso_3": "BEL"
+            "iso_3": "BEL",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 20,
-        "fields": {
-            "nombre": "Benin",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Benín",
+            "nacionalidad": "beninesa",
             "iso_2": "BJ",
-            "iso_3": "BEN"
+            "iso_3": "BEN",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 21,
-        "fields": {
-            "nombre": "Bonaire, Sint Eustatius and Saba",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Bonaire, San Eustaquio y Saba",
+            "nacionalidad": "caribeña neerlandesa",
             "iso_2": "BQ",
-            "iso_3": "BES"
+            "iso_3": "BES",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 22,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Burkina Faso",
-            "nacionalidad": "",
+            "nacionalidad": "burkinesa",
             "iso_2": "BF",
-            "iso_3": "BFA"
+            "iso_3": "BFA",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 23,
-        "fields": {
-            "nombre": "Bangladesh",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Bangladés",
+            "nacionalidad": "bangladesí",
             "iso_2": "BD",
-            "iso_3": "BGD"
+            "iso_3": "BGD",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 24,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Bulgaria",
-            "nacionalidad": "",
+            "nacionalidad": "búlgara",
             "iso_2": "BG",
-            "iso_3": "BGR"
+            "iso_3": "BGR",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 25,
-        "fields": {
-            "nombre": "Bahrain",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Baréin",
+            "nacionalidad": "bareiní",
             "iso_2": "BH",
-            "iso_3": "BHR"
+            "iso_3": "BHR",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 26,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Bahamas",
-            "nacionalidad": "",
+            "nacionalidad": "bahameña",
             "iso_2": "BS",
-            "iso_3": "BHS"
+            "iso_3": "BHS",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 27,
-        "fields": {
-            "nombre": "Bosnia and Herzegovina",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Bosnia y Herzegovina",
+            "nacionalidad": "bosnia",
             "iso_2": "BA",
-            "iso_3": "BIH"
+            "iso_3": "BIH",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 28,
-        "fields": {
-            "nombre": "Saint Barthélemy",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "San Bartolomé",
+            "nacionalidad": "sanbartolomense",
             "iso_2": "BL",
-            "iso_3": "BLM"
+            "iso_3": "BLM",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 29,
-        "fields": {
-            "nombre": "Belarus",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Bielorrusia",
+            "nacionalidad": "bielorrusa",
             "iso_2": "BY",
-            "iso_3": "BLR"
+            "iso_3": "BLR",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 30,
-        "fields": {
-            "nombre": "Belize",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Belice",
+            "nacionalidad": "beliceña",
             "iso_2": "BZ",
-            "iso_3": "BLZ"
+            "iso_3": "BLZ",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 31,
-        "fields": {
-            "nombre": "Bermuda",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Bermudas",
+            "nacionalidad": "bermudeña",
             "iso_2": "BM",
-            "iso_3": "BMU"
+            "iso_3": "BMU",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 32,
-        "fields": {
-            "nombre": "Bolivia, Plurinational State of",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Bolivia",
+            "nacionalidad": "boliviana",
             "iso_2": "BO",
-            "iso_3": "BOL"
+            "iso_3": "BOL",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 33,
-        "fields": {
-            "nombre": "Brazil",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Brasil",
+            "nacionalidad": "brasileña",
             "iso_2": "BR",
-            "iso_3": "BRA"
+            "iso_3": "BRA",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 34,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Barbados",
-            "nacionalidad": "",
+            "nacionalidad": "barbadense",
             "iso_2": "BB",
-            "iso_3": "BRB"
+            "iso_3": "BRB",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 35,
-        "fields": {
-            "nombre": "Brunei Darussalam",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Brunéi",
+            "nacionalidad": "bruneana",
             "iso_2": "BN",
-            "iso_3": "BRN"
+            "iso_3": "BRN",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 36,
-        "fields": {
-            "nombre": "Bhutan",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Bután",
+            "nacionalidad": "butanesa",
             "iso_2": "BT",
-            "iso_3": "BTN"
+            "iso_3": "BTN",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 37,
-        "fields": {
-            "nombre": "Bouvet Island",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Isla Bouvet",
+            "nacionalidad": "bouvetense",
             "iso_2": "BV",
-            "iso_3": "BVT"
+            "iso_3": "BVT",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 38,
-        "fields": {
-            "nombre": "Botswana",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Botsuana",
+            "nacionalidad": "botsuana",
             "iso_2": "BW",
-            "iso_3": "BWA"
+            "iso_3": "BWA",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 39,
-        "fields": {
-            "nombre": "Central African Republic",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "República Centroafricana",
+            "nacionalidad": "centroafricana",
             "iso_2": "CF",
-            "iso_3": "CAF"
+            "iso_3": "CAF",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 40,
-        "fields": {
-            "nombre": "Canada",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Canadá",
+            "nacionalidad": "canadiense",
             "iso_2": "CA",
-            "iso_3": "CAN"
+            "iso_3": "CAN",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 41,
-        "fields": {
-            "nombre": "Cocos (Keeling) Islands",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Islas Cocos",
+            "nacionalidad": "cocosense",
             "iso_2": "CC",
-            "iso_3": "CCK"
+            "iso_3": "CCK",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 42,
-        "fields": {
-            "nombre": "Switzerland",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Suiza",
+            "nacionalidad": "suiza",
             "iso_2": "CH",
-            "iso_3": "CHE"
+            "iso_3": "CHE",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 43,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Chile",
-            "nacionalidad": "",
+            "nacionalidad": "chilena",
             "iso_2": "CL",
-            "iso_3": "CHL"
+            "iso_3": "CHL",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 44,
-        "fields": {
+        "fields": 
+        {
             "nombre": "China",
-            "nacionalidad": "",
+            "nacionalidad": "china",
             "iso_2": "CN",
-            "iso_3": "CHN"
+            "iso_3": "CHN",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 45,
-        "fields": {
-            "nombre": "Côte d'Ivoire",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Costa de Marfil",
+            "nacionalidad": "marfileña",
             "iso_2": "CI",
-            "iso_3": "CIV"
+            "iso_3": "CIV",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 46,
-        "fields": {
-            "nombre": "Cameroon",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Camerún",
+            "nacionalidad": "camerunesa",
             "iso_2": "CM",
-            "iso_3": "CMR"
+            "iso_3": "CMR",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 47,
-        "fields": {
-            "nombre": "Congo, The Democratic Republic of the",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "República Democrática del Congo",
+            "nacionalidad": "congoleña",
             "iso_2": "CD",
-            "iso_3": "COD"
+            "iso_3": "COD",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 48,
-        "fields": {
-            "nombre": "Congo",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "República del Congo",
+            "nacionalidad": "congoleña",
             "iso_2": "CG",
-            "iso_3": "COG"
+            "iso_3": "COG",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 49,
-        "fields": {
-            "nombre": "Cook Islands",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Islas Cook",
+            "nacionalidad": "cookiana",
             "iso_2": "CK",
-            "iso_3": "COK"
+            "iso_3": "COK",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 50,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Colombia",
-            "nacionalidad": "",
+            "nacionalidad": "colombiana",
             "iso_2": "CO",
-            "iso_3": "COL"
+            "iso_3": "COL",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 51,
-        "fields": {
-            "nombre": "Comoros",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Comoras",
+            "nacionalidad": "comorense",
             "iso_2": "KM",
-            "iso_3": "COM"
+            "iso_3": "COM",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 52,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Cabo Verde",
-            "nacionalidad": "",
+            "nacionalidad": "caboverdiana",
             "iso_2": "CV",
-            "iso_3": "CPV"
+            "iso_3": "CPV",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 53,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Costa Rica",
-            "nacionalidad": "",
+            "nacionalidad": "costarricense",
             "iso_2": "CR",
-            "iso_3": "CRI"
+            "iso_3": "CRI",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 54,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Cuba",
-            "nacionalidad": "",
+            "nacionalidad": "cubana",
             "iso_2": "CU",
-            "iso_3": "CUB"
+            "iso_3": "CUB",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 55,
-        "fields": {
-            "nombre": "Curaçao",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Curazao",
+            "nacionalidad": "curazoleña",
             "iso_2": "CW",
-            "iso_3": "CUW"
+            "iso_3": "CUW",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 56,
-        "fields": {
-            "nombre": "Christmas Island",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Isla de Navidad",
+            "nacionalidad": "navideña",
             "iso_2": "CX",
-            "iso_3": "CXR"
+            "iso_3": "CXR",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 57,
-        "fields": {
-            "nombre": "Cayman Islands",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Islas Caimán",
+            "nacionalidad": "caimanesa",
             "iso_2": "KY",
-            "iso_3": "CYM"
+            "iso_3": "CYM",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 58,
-        "fields": {
-            "nombre": "Cyprus",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Chipre",
+            "nacionalidad": "chipriota",
             "iso_2": "CY",
-            "iso_3": "CYP"
+            "iso_3": "CYP",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 59,
-        "fields": {
-            "nombre": "Czechia",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Chequia",
+            "nacionalidad": "checa",
             "iso_2": "CZ",
-            "iso_3": "CZE"
+            "iso_3": "CZE",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 60,
-        "fields": {
-            "nombre": "Germany",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Alemania",
+            "nacionalidad": "alemana",
             "iso_2": "DE",
-            "iso_3": "DEU"
+            "iso_3": "DEU",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 61,
-        "fields": {
-            "nombre": "Djibouti",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Yibuti",
+            "nacionalidad": "yibutiana",
             "iso_2": "DJ",
-            "iso_3": "DJI"
+            "iso_3": "DJI",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 62,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Dominica",
-            "nacionalidad": "",
+            "nacionalidad": "dominiquesa",
             "iso_2": "DM",
-            "iso_3": "DMA"
+            "iso_3": "DMA",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 63,
-        "fields": {
-            "nombre": "Denmark",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Dinamarca",
+            "nacionalidad": "danesa",
             "iso_2": "DK",
-            "iso_3": "DNK"
+            "iso_3": "DNK",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 64,
-        "fields": {
-            "nombre": "Dominican Republic",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "República Dominicana",
+            "nacionalidad": "dominicana",
             "iso_2": "DO",
-            "iso_3": "DOM"
+            "iso_3": "DOM",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 65,
-        "fields": {
-            "nombre": "Algeria",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Argelia",
+            "nacionalidad": "argelina",
             "iso_2": "DZ",
-            "iso_3": "DZA"
+            "iso_3": "DZA",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 66,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Ecuador",
-            "nacionalidad": "",
+            "nacionalidad": "ecuatoriana",
             "iso_2": "EC",
-            "iso_3": "ECU"
+            "iso_3": "ECU",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 67,
-        "fields": {
-            "nombre": "Egypt",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Egipto",
+            "nacionalidad": "egipcia",
             "iso_2": "EG",
-            "iso_3": "EGY"
+            "iso_3": "EGY",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 68,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Eritrea",
-            "nacionalidad": "",
+            "nacionalidad": "eritrea",
             "iso_2": "ER",
-            "iso_3": "ERI"
+            "iso_3": "ERI",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 69,
-        "fields": {
-            "nombre": "Western Sahara",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Sahara Occidental",
+            "nacionalidad": "saharaui",
             "iso_2": "EH",
-            "iso_3": "ESH"
+            "iso_3": "ESH",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 70,
-        "fields": {
-            "nombre": "Spain",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "España",
+            "nacionalidad": "española",
             "iso_2": "ES",
-            "iso_3": "ESP"
+            "iso_3": "ESP",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 71,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Estonia",
-            "nacionalidad": "",
+            "nacionalidad": "estonia",
             "iso_2": "EE",
-            "iso_3": "EST"
+            "iso_3": "EST",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 72,
-        "fields": {
-            "nombre": "Ethiopia",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Etiopía",
+            "nacionalidad": "etíope",
             "iso_2": "ET",
-            "iso_3": "ETH"
+            "iso_3": "ETH",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 73,
-        "fields": {
-            "nombre": "Finland",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Finlandia",
+            "nacionalidad": "finlandesa",
             "iso_2": "FI",
-            "iso_3": "FIN"
+            "iso_3": "FIN",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 74,
-        "fields": {
-            "nombre": "Fiji",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Fiyi",
+            "nacionalidad": "fiyiana",
             "iso_2": "FJ",
-            "iso_3": "FJI"
+            "iso_3": "FJI",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 75,
-        "fields": {
-            "nombre": "Falkland Islands (Malvinas)",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Islas Malvinas",
+            "nacionalidad": "malvinense",
             "iso_2": "FK",
-            "iso_3": "FLK"
+            "iso_3": "FLK",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 76,
-        "fields": {
-            "nombre": "France",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Francia",
+            "nacionalidad": "francesa",
             "iso_2": "FR",
-            "iso_3": "FRA"
+            "iso_3": "FRA",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 77,
-        "fields": {
-            "nombre": "Faroe Islands",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Islas Feroe",
+            "nacionalidad": "feroesa",
             "iso_2": "FO",
-            "iso_3": "FRO"
+            "iso_3": "FRO",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 78,
-        "fields": {
-            "nombre": "Micronesia, Federated States of",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Micronesia",
+            "nacionalidad": "micronesia",
             "iso_2": "FM",
-            "iso_3": "FSM"
+            "iso_3": "FSM",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 79,
-        "fields": {
-            "nombre": "Gabon",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Gabón",
+            "nacionalidad": "gabonesa",
             "iso_2": "GA",
-            "iso_3": "GAB"
+            "iso_3": "GAB",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 80,
-        "fields": {
-            "nombre": "United Kingdom",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Reino Unido",
+            "nacionalidad": "británica",
             "iso_2": "GB",
-            "iso_3": "GBR"
+            "iso_3": "GBR",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 81,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Georgia",
-            "nacionalidad": "",
+            "nacionalidad": "georgiana",
             "iso_2": "GE",
-            "iso_3": "GEO"
+            "iso_3": "GEO",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 82,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Guernsey",
-            "nacionalidad": "",
+            "nacionalidad": "guernesiana",
             "iso_2": "GG",
-            "iso_3": "GGY"
+            "iso_3": "GGY",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 83,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Ghana",
-            "nacionalidad": "",
+            "nacionalidad": "ghanesa",
             "iso_2": "GH",
-            "iso_3": "GHA"
+            "iso_3": "GHA",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 84,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Gibraltar",
-            "nacionalidad": "",
+            "nacionalidad": "gibraltareña",
             "iso_2": "GI",
-            "iso_3": "GIB"
+            "iso_3": "GIB",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 85,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Guinea",
-            "nacionalidad": "",
+            "nacionalidad": "guineana",
             "iso_2": "GN",
-            "iso_3": "GIN"
+            "iso_3": "GIN",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 86,
-        "fields": {
-            "nombre": "Guadeloupe",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Guadalupe",
+            "nacionalidad": "guadalupeña",
             "iso_2": "GP",
-            "iso_3": "GLP"
+            "iso_3": "GLP",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 87,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Gambia",
-            "nacionalidad": "",
+            "nacionalidad": "gambiana",
             "iso_2": "GM",
-            "iso_3": "GMB"
+            "iso_3": "GMB",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 88,
-        "fields": {
-            "nombre": "Guinea-Bissau",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Guinea-Bisáu",
+            "nacionalidad": "bisauguineana",
             "iso_2": "GW",
-            "iso_3": "GNB"
+            "iso_3": "GNB",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 89,
-        "fields": {
-            "nombre": "Equatorial Guinea",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Guinea Ecuatorial",
+            "nacionalidad": "ecuatoguineana",
             "iso_2": "GQ",
-            "iso_3": "GNQ"
+            "iso_3": "GNQ",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 90,
-        "fields": {
-            "nombre": "Greece",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Grecia",
+            "nacionalidad": "griega",
             "iso_2": "GR",
-            "iso_3": "GRC"
+            "iso_3": "GRC",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 91,
-        "fields": {
-            "nombre": "Grenada",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Granada",
+            "nacionalidad": "granadina",
             "iso_2": "GD",
-            "iso_3": "GRD"
+            "iso_3": "GRD",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 92,
-        "fields": {
-            "nombre": "Greenland",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Groenlandia",
+            "nacionalidad": "groenlandesa",
             "iso_2": "GL",
-            "iso_3": "GRL"
+            "iso_3": "GRL",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 93,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Guatemala",
-            "nacionalidad": "",
+            "nacionalidad": "guatemalteca",
             "iso_2": "GT",
-            "iso_3": "GTM"
+            "iso_3": "GTM",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 94,
-        "fields": {
-            "nombre": "French Guiana",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Guayana Francesa",
+            "nacionalidad": "guayanesa francesa",
             "iso_2": "GF",
-            "iso_3": "GUF"
+            "iso_3": "GUF",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 95,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Guam",
-            "nacionalidad": "",
+            "nacionalidad": "guameña",
             "iso_2": "GU",
-            "iso_3": "GUM"
+            "iso_3": "GUM",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 96,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Guyana",
-            "nacionalidad": "",
+            "nacionalidad": "guyanesa",
             "iso_2": "GY",
-            "iso_3": "GUY"
+            "iso_3": "GUY",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 97,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Hong Kong",
-            "nacionalidad": "",
+            "nacionalidad": "hongkonesa",
             "iso_2": "HK",
-            "iso_3": "HKG"
+            "iso_3": "HKG",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 98,
-        "fields": {
-            "nombre": "Heard Island and McDonald Islands",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Islas Heard y McDonald",
+            "nacionalidad": "australiana",
             "iso_2": "HM",
-            "iso_3": "HMD"
+            "iso_3": "HMD",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 99,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Honduras",
-            "nacionalidad": "",
+            "nacionalidad": "hondureña",
             "iso_2": "HN",
-            "iso_3": "HND"
+            "iso_3": "HND",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 100,
-        "fields": {
-            "nombre": "Croatia",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Croacia",
+            "nacionalidad": "croata",
             "iso_2": "HR",
-            "iso_3": "HRV"
+            "iso_3": "HRV",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 101,
-        "fields": {
-            "nombre": "Haiti",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Haití",
+            "nacionalidad": "haitiana",
             "iso_2": "HT",
-            "iso_3": "HTI"
+            "iso_3": "HTI",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 102,
-        "fields": {
-            "nombre": "Hungary",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Hungría",
+            "nacionalidad": "húngara",
             "iso_2": "HU",
-            "iso_3": "HUN"
+            "iso_3": "HUN",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 103,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Indonesia",
-            "nacionalidad": "",
+            "nacionalidad": "indonesia",
             "iso_2": "ID",
-            "iso_3": "IDN"
+            "iso_3": "IDN",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 104,
-        "fields": {
-            "nombre": "Isle of Man",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Isla de Man",
+            "nacionalidad": "manesa",
             "iso_2": "IM",
-            "iso_3": "IMN"
+            "iso_3": "IMN",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 105,
-        "fields": {
+        "fields": 
+        {
             "nombre": "India",
-            "nacionalidad": "",
+            "nacionalidad": "india",
             "iso_2": "IN",
-            "iso_3": "IND"
+            "iso_3": "IND",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 106,
-        "fields": {
-            "nombre": "British Indian Ocean Territory",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Territorio Británico del Océano Índico",
+            "nacionalidad": "británica",
             "iso_2": "IO",
-            "iso_3": "IOT"
+            "iso_3": "IOT",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 107,
-        "fields": {
-            "nombre": "Ireland",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Irlanda",
+            "nacionalidad": "irlandesa",
             "iso_2": "IE",
-            "iso_3": "IRL"
+            "iso_3": "IRL",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 108,
-        "fields": {
-            "nombre": "Iran, Islamic Republic of",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Irán",
+            "nacionalidad": "iraní",
             "iso_2": "IR",
-            "iso_3": "IRN"
+            "iso_3": "IRN",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 109,
-        "fields": {
-            "nombre": "Iraq",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Irak",
+            "nacionalidad": "iraquí",
             "iso_2": "IQ",
-            "iso_3": "IRQ"
+            "iso_3": "IRQ",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 110,
-        "fields": {
-            "nombre": "Iceland",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Islandia",
+            "nacionalidad": "islandesa",
             "iso_2": "IS",
-            "iso_3": "ISL"
+            "iso_3": "ISL",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 111,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Israel",
-            "nacionalidad": "",
+            "nacionalidad": "israelí",
             "iso_2": "IL",
-            "iso_3": "ISR"
+            "iso_3": "ISR",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 112,
-        "fields": {
-            "nombre": "Italy",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Italia",
+            "nacionalidad": "italiana",
             "iso_2": "IT",
-            "iso_3": "ITA"
+            "iso_3": "ITA",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 113,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Jamaica",
-            "nacionalidad": "",
+            "nacionalidad": "jamaicana",
             "iso_2": "JM",
-            "iso_3": "JAM"
+            "iso_3": "JAM",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 114,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Jersey",
-            "nacionalidad": "",
+            "nacionalidad": "jerseyana",
             "iso_2": "JE",
-            "iso_3": "JEY"
+            "iso_3": "JEY",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 115,
-        "fields": {
-            "nombre": "Jordan",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Jordania",
+            "nacionalidad": "jordana",
             "iso_2": "JO",
-            "iso_3": "JOR"
+            "iso_3": "JOR",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 116,
-        "fields": {
-            "nombre": "Japan",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Japón",
+            "nacionalidad": "japonesa",
             "iso_2": "JP",
-            "iso_3": "JPN"
+            "iso_3": "JPN",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 117,
-        "fields": {
-            "nombre": "Kazakhstan",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Kazajistán",
+            "nacionalidad": "kazaja",
             "iso_2": "KZ",
-            "iso_3": "KAZ"
+            "iso_3": "KAZ",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 118,
-        "fields": {
-            "nombre": "Kenya",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Kenia",
+            "nacionalidad": "keniana",
             "iso_2": "KE",
-            "iso_3": "KEN"
+            "iso_3": "KEN",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 119,
-        "fields": {
-            "nombre": "Kyrgyzstan",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Kirguistán",
+            "nacionalidad": "kirguisa",
             "iso_2": "KG",
-            "iso_3": "KGZ"
+            "iso_3": "KGZ",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 120,
-        "fields": {
-            "nombre": "Cambodia",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Camboya",
+            "nacionalidad": "camboyana",
             "iso_2": "KH",
-            "iso_3": "KHM"
+            "iso_3": "KHM",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 121,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Kiribati",
-            "nacionalidad": "",
+            "nacionalidad": "kiribatiana",
             "iso_2": "KI",
-            "iso_3": "KIR"
+            "iso_3": "KIR",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 122,
-        "fields": {
-            "nombre": "Saint Kitts and Nevis",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "San Cristóbal y Nieves",
+            "nacionalidad": "sancristobaleña",
             "iso_2": "KN",
-            "iso_3": "KNA"
+            "iso_3": "KNA",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 123,
-        "fields": {
-            "nombre": "Korea, Republic of",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Corea del Sur",
+            "nacionalidad": "surcoreana",
             "iso_2": "KR",
-            "iso_3": "KOR"
+            "iso_3": "KOR",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 124,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Kuwait",
-            "nacionalidad": "",
+            "nacionalidad": "kuwaití",
             "iso_2": "KW",
-            "iso_3": "KWT"
+            "iso_3": "KWT",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 125,
-        "fields": {
-            "nombre": "Lao People's Democratic Republic",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Laos",
+            "nacionalidad": "laosiana",
             "iso_2": "LA",
-            "iso_3": "LAO"
+            "iso_3": "LAO",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 126,
-        "fields": {
-            "nombre": "Lebanon",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Líbano",
+            "nacionalidad": "libanesa",
             "iso_2": "LB",
-            "iso_3": "LBN"
+            "iso_3": "LBN",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 127,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Liberia",
-            "nacionalidad": "",
+            "nacionalidad": "liberiana",
             "iso_2": "LR",
-            "iso_3": "LBR"
+            "iso_3": "LBR",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 128,
-        "fields": {
-            "nombre": "Libya",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Libia",
+            "nacionalidad": "libia",
             "iso_2": "LY",
-            "iso_3": "LBY"
+            "iso_3": "LBY",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 129,
-        "fields": {
-            "nombre": "Saint Lucia",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Santa Lucía",
+            "nacionalidad": "santalucense",
             "iso_2": "LC",
-            "iso_3": "LCA"
+            "iso_3": "LCA",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 130,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Liechtenstein",
-            "nacionalidad": "",
+            "nacionalidad": "liechtensteiniana",
             "iso_2": "LI",
-            "iso_3": "LIE"
+            "iso_3": "LIE",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 131,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Sri Lanka",
-            "nacionalidad": "",
+            "nacionalidad": "esrilanquesa",
             "iso_2": "LK",
-            "iso_3": "LKA"
+            "iso_3": "LKA",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 132,
-        "fields": {
-            "nombre": "Lesotho",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Lesoto",
+            "nacionalidad": "lesotense",
             "iso_2": "LS",
-            "iso_3": "LSO"
+            "iso_3": "LSO",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 133,
-        "fields": {
-            "nombre": "Lithuania",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Lituania",
+            "nacionalidad": "lituana",
             "iso_2": "LT",
-            "iso_3": "LTU"
+            "iso_3": "LTU",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 134,
-        "fields": {
-            "nombre": "Luxembourg",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Luxemburgo",
+            "nacionalidad": "luxemburguesa",
             "iso_2": "LU",
-            "iso_3": "LUX"
+            "iso_3": "LUX",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 135,
-        "fields": {
-            "nombre": "Latvia",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Letonia",
+            "nacionalidad": "letona",
             "iso_2": "LV",
-            "iso_3": "LVA"
+            "iso_3": "LVA",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 136,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Macao",
-            "nacionalidad": "",
+            "nacionalidad": "macaense",
             "iso_2": "MO",
-            "iso_3": "MAC"
+            "iso_3": "MAC",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 137,
-        "fields": {
-            "nombre": "Saint Martin (French part)",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "San Martín",
+            "nacionalidad": "sanmartinense",
             "iso_2": "MF",
-            "iso_3": "MAF"
+            "iso_3": "MAF",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 138,
-        "fields": {
-            "nombre": "Morocco",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Marruecos",
+            "nacionalidad": "marroquí",
             "iso_2": "MA",
-            "iso_3": "MAR"
+            "iso_3": "MAR",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 139,
-        "fields": {
-            "nombre": "Monaco",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Mónaco",
+            "nacionalidad": "monegasca",
             "iso_2": "MC",
-            "iso_3": "MCO"
+            "iso_3": "MCO",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 140,
-        "fields": {
-            "nombre": "Moldova, Republic of",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Moldavia",
+            "nacionalidad": "moldava",
             "iso_2": "MD",
-            "iso_3": "MDA"
+            "iso_3": "MDA",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 141,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Madagascar",
-            "nacionalidad": "",
+            "nacionalidad": "malgache",
             "iso_2": "MG",
-            "iso_3": "MDG"
+            "iso_3": "MDG",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 142,
-        "fields": {
-            "nombre": "Maldives",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Maldivas",
+            "nacionalidad": "maldiva",
             "iso_2": "MV",
-            "iso_3": "MDV"
+            "iso_3": "MDV",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 143,
-        "fields": {
-            "nombre": "Mexico",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "México",
+            "nacionalidad": "mexicana",
             "iso_2": "MX",
-            "iso_3": "MEX"
+            "iso_3": "MEX",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 144,
-        "fields": {
-            "nombre": "Marshall Islands",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Islas Marshall",
+            "nacionalidad": "marshalesa",
             "iso_2": "MH",
-            "iso_3": "MHL"
+            "iso_3": "MHL",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 145,
-        "fields": {
-            "nombre": "North Macedonia",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Macedonia del Norte",
+            "nacionalidad": "macedonia",
             "iso_2": "MK",
-            "iso_3": "MKD"
+            "iso_3": "MKD",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 146,
-        "fields": {
-            "nombre": "Mali",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Malí",
+            "nacionalidad": "maliense",
             "iso_2": "ML",
-            "iso_3": "MLI"
+            "iso_3": "MLI",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 147,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Malta",
-            "nacionalidad": "",
+            "nacionalidad": "maltesa",
             "iso_2": "MT",
-            "iso_3": "MLT"
+            "iso_3": "MLT",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 148,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Myanmar",
-            "nacionalidad": "",
+            "nacionalidad": "birmana",
             "iso_2": "MM",
-            "iso_3": "MMR"
+            "iso_3": "MMR",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 149,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Montenegro",
-            "nacionalidad": "",
+            "nacionalidad": "montenegrina",
             "iso_2": "ME",
-            "iso_3": "MNE"
+            "iso_3": "MNE",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 150,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Mongolia",
-            "nacionalidad": "",
+            "nacionalidad": "mongola",
             "iso_2": "MN",
-            "iso_3": "MNG"
+            "iso_3": "MNG",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 151,
-        "fields": {
-            "nombre": "Northern Mariana Islands",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Islas Marianas del Norte",
+            "nacionalidad": "mariana",
             "iso_2": "MP",
-            "iso_3": "MNP"
+            "iso_3": "MNP",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 152,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Mozambique",
-            "nacionalidad": "",
+            "nacionalidad": "mozambiqueña",
             "iso_2": "MZ",
-            "iso_3": "MOZ"
+            "iso_3": "MOZ",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 153,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Mauritania",
-            "nacionalidad": "",
+            "nacionalidad": "mauritana",
             "iso_2": "MR",
-            "iso_3": "MRT"
+            "iso_3": "MRT",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 154,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Montserrat",
-            "nacionalidad": "",
+            "nacionalidad": "montserratense",
             "iso_2": "MS",
-            "iso_3": "MSR"
+            "iso_3": "MSR",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 155,
-        "fields": {
-            "nombre": "Martinique",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Martinica",
+            "nacionalidad": "martiniquesa",
             "iso_2": "MQ",
-            "iso_3": "MTQ"
+            "iso_3": "MTQ",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 156,
-        "fields": {
-            "nombre": "Mauritius",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Mauricio",
+            "nacionalidad": "mauriciana",
             "iso_2": "MU",
-            "iso_3": "MUS"
+            "iso_3": "MUS",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 157,
-        "fields": {
-            "nombre": "Malawi",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Malaui",
+            "nacionalidad": "malauí",
             "iso_2": "MW",
-            "iso_3": "MWI"
+            "iso_3": "MWI",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 158,
-        "fields": {
-            "nombre": "Malaysia",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Malasia",
+            "nacionalidad": "malasia",
             "iso_2": "MY",
-            "iso_3": "MYS"
+            "iso_3": "MYS",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 159,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Mayotte",
-            "nacionalidad": "",
+            "nacionalidad": "mayotense",
             "iso_2": "YT",
-            "iso_3": "MYT"
+            "iso_3": "MYT",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 160,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Namibia",
-            "nacionalidad": "",
+            "nacionalidad": "namibia",
             "iso_2": "NA",
-            "iso_3": "NAM"
+            "iso_3": "NAM",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 161,
-        "fields": {
-            "nombre": "New Caledonia",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Nueva Caledonia",
+            "nacionalidad": "neocaledonia",
             "iso_2": "NC",
-            "iso_3": "NCL"
+            "iso_3": "NCL",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 162,
-        "fields": {
-            "nombre": "Niger",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Níger",
+            "nacionalidad": "nigerina",
             "iso_2": "NE",
-            "iso_3": "NER"
+            "iso_3": "NER",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 163,
-        "fields": {
-            "nombre": "Norfolk Island",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Isla Norfolk",
+            "nacionalidad": "norfolquesa",
             "iso_2": "NF",
-            "iso_3": "NFK"
+            "iso_3": "NFK",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 164,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Nigeria",
-            "nacionalidad": "",
+            "nacionalidad": "nigeriana",
             "iso_2": "NG",
-            "iso_3": "NGA"
+            "iso_3": "NGA",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 165,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Nicaragua",
-            "nacionalidad": "",
+            "nacionalidad": "nicaragüense",
             "iso_2": "NI",
-            "iso_3": "NIC"
+            "iso_3": "NIC",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 166,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Niue",
-            "nacionalidad": "",
+            "nacionalidad": "niuense",
             "iso_2": "NU",
-            "iso_3": "NIU"
+            "iso_3": "NIU",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 167,
-        "fields": {
-            "nombre": "Netherlands",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Países Bajos",
+            "nacionalidad": "neerlandesa",
             "iso_2": "NL",
-            "iso_3": "NLD"
+            "iso_3": "NLD",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 168,
-        "fields": {
-            "nombre": "Norway",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Noruega",
+            "nacionalidad": "noruega",
             "iso_2": "NO",
-            "iso_3": "NOR"
+            "iso_3": "NOR",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 169,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Nepal",
-            "nacionalidad": "",
+            "nacionalidad": "nepalí",
             "iso_2": "NP",
-            "iso_3": "NPL"
+            "iso_3": "NPL",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 170,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Nauru",
-            "nacionalidad": "",
+            "nacionalidad": "nauruana",
             "iso_2": "NR",
-            "iso_3": "NRU"
+            "iso_3": "NRU",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 171,
-        "fields": {
-            "nombre": "New Zealand",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Nueva Zelanda",
+            "nacionalidad": "neozelandesa",
             "iso_2": "NZ",
-            "iso_3": "NZL"
+            "iso_3": "NZL",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 172,
-        "fields": {
-            "nombre": "Oman",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Omán",
+            "nacionalidad": "omaní",
             "iso_2": "OM",
-            "iso_3": "OMN"
+            "iso_3": "OMN",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 173,
-        "fields": {
-            "nombre": "Pakistan",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Pakistán",
+            "nacionalidad": "pakistaní",
             "iso_2": "PK",
-            "iso_3": "PAK"
+            "iso_3": "PAK",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 174,
-        "fields": {
-            "nombre": "Panama",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Panamá",
+            "nacionalidad": "panameña",
             "iso_2": "PA",
-            "iso_3": "PAN"
+            "iso_3": "PAN",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 175,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Pitcairn",
-            "nacionalidad": "",
+            "nacionalidad": "pitcairnesa",
             "iso_2": "PN",
-            "iso_3": "PCN"
+            "iso_3": "PCN",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 176,
-        "fields": {
-            "nombre": "Peru",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Perú",
+            "nacionalidad": "peruana",
             "iso_2": "PE",
-            "iso_3": "PER"
+            "iso_3": "PER",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 177,
-        "fields": {
-            "nombre": "Philippines",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Filipinas",
+            "nacionalidad": "filipina",
             "iso_2": "PH",
-            "iso_3": "PHL"
+            "iso_3": "PHL",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 178,
-        "fields": {
-            "nombre": "Palau",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Palaos",
+            "nacionalidad": "palauana",
             "iso_2": "PW",
-            "iso_3": "PLW"
+            "iso_3": "PLW",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 179,
-        "fields": {
-            "nombre": "Papua New Guinea",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Papúa Nueva Guinea",
+            "nacionalidad": "papú",
             "iso_2": "PG",
-            "iso_3": "PNG"
+            "iso_3": "PNG",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 180,
-        "fields": {
-            "nombre": "Poland",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Polonia",
+            "nacionalidad": "polaca",
             "iso_2": "PL",
-            "iso_3": "POL"
+            "iso_3": "POL",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 181,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Puerto Rico",
-            "nacionalidad": "",
+            "nacionalidad": "puertorriqueña",
             "iso_2": "PR",
-            "iso_3": "PRI"
+            "iso_3": "PRI",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 182,
-        "fields": {
-            "nombre": "Korea, Democratic People's Republic of",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Corea del Norte",
+            "nacionalidad": "norcoreana",
             "iso_2": "KP",
-            "iso_3": "PRK"
+            "iso_3": "PRK",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 183,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Portugal",
-            "nacionalidad": "",
+            "nacionalidad": "portuguesa",
             "iso_2": "PT",
-            "iso_3": "PRT"
+            "iso_3": "PRT",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 184,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Paraguay",
-            "nacionalidad": "",
+            "nacionalidad": "paraguaya",
             "iso_2": "PY",
-            "iso_3": "PRY"
+            "iso_3": "PRY",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 185,
-        "fields": {
-            "nombre": "Palestine, State of",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Palestina",
+            "nacionalidad": "palestina",
             "iso_2": "PS",
-            "iso_3": "PSE"
+            "iso_3": "PSE",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 186,
-        "fields": {
-            "nombre": "French Polynesia",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Polinesia Francesa",
+            "nacionalidad": "polinesia",
             "iso_2": "PF",
-            "iso_3": "PYF"
+            "iso_3": "PYF",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 187,
-        "fields": {
-            "nombre": "Qatar",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Catar",
+            "nacionalidad": "catarí",
             "iso_2": "QA",
-            "iso_3": "QAT"
+            "iso_3": "QAT",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 188,
-        "fields": {
-            "nombre": "Réunion",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Reunión",
+            "nacionalidad": "reunionense",
             "iso_2": "RE",
-            "iso_3": "REU"
+            "iso_3": "REU",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 189,
-        "fields": {
-            "nombre": "Romania",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Rumania",
+            "nacionalidad": "rumana",
             "iso_2": "RO",
-            "iso_3": "ROU"
+            "iso_3": "ROU",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 190,
-        "fields": {
-            "nombre": "Russian Federation",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Rusia",
+            "nacionalidad": "rusa",
             "iso_2": "RU",
-            "iso_3": "RUS"
+            "iso_3": "RUS",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 191,
-        "fields": {
-            "nombre": "Rwanda",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Ruanda",
+            "nacionalidad": "ruandesa",
             "iso_2": "RW",
-            "iso_3": "RWA"
+            "iso_3": "RWA",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 192,
-        "fields": {
-            "nombre": "Saudi Arabia",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Arabia Saudita",
+            "nacionalidad": "saudí",
             "iso_2": "SA",
-            "iso_3": "SAU"
+            "iso_3": "SAU",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 193,
-        "fields": {
-            "nombre": "Sudan",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Sudán",
+            "nacionalidad": "sudanesa",
             "iso_2": "SD",
-            "iso_3": "SDN"
+            "iso_3": "SDN",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 194,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Senegal",
-            "nacionalidad": "",
+            "nacionalidad": "senegalesa",
             "iso_2": "SN",
-            "iso_3": "SEN"
+            "iso_3": "SEN",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 195,
-        "fields": {
-            "nombre": "Singapore",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Singapur",
+            "nacionalidad": "singapurense",
             "iso_2": "SG",
-            "iso_3": "SGP"
+            "iso_3": "SGP",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 196,
-        "fields": {
-            "nombre": "South Georgia and the South Sandwich Islands",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Georgia del Sur y Sandwich del Sur",
+            "nacionalidad": "británica",
             "iso_2": "GS",
-            "iso_3": "SGS"
+            "iso_3": "SGS",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 197,
-        "fields": {
-            "nombre": "Saint Helena, Ascension and Tristan da Cunha",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Santa Elena",
+            "nacionalidad": "santahelenense",
             "iso_2": "SH",
-            "iso_3": "SHN"
+            "iso_3": "SHN",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 198,
-        "fields": {
-            "nombre": "Svalbard and Jan Mayen",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Svalbard y Jan Mayen",
+            "nacionalidad": "noruega",
             "iso_2": "SJ",
-            "iso_3": "SJM"
+            "iso_3": "SJM",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 199,
-        "fields": {
-            "nombre": "Solomon Islands",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Islas Salomón",
+            "nacionalidad": "salomonense",
             "iso_2": "SB",
-            "iso_3": "SLB"
+            "iso_3": "SLB",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 200,
-        "fields": {
-            "nombre": "Sierra Leone",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Sierra Leona",
+            "nacionalidad": "sierraleonesa",
             "iso_2": "SL",
-            "iso_3": "SLE"
+            "iso_3": "SLE",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 201,
-        "fields": {
+        "fields": 
+        {
             "nombre": "El Salvador",
-            "nacionalidad": "",
+            "nacionalidad": "salvadoreña",
             "iso_2": "SV",
-            "iso_3": "SLV"
+            "iso_3": "SLV",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 202,
-        "fields": {
+        "fields": 
+        {
             "nombre": "San Marino",
-            "nacionalidad": "",
+            "nacionalidad": "sanmarinense",
             "iso_2": "SM",
-            "iso_3": "SMR"
+            "iso_3": "SMR",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 203,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Somalia",
-            "nacionalidad": "",
+            "nacionalidad": "somalí",
             "iso_2": "SO",
-            "iso_3": "SOM"
+            "iso_3": "SOM",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 204,
-        "fields": {
-            "nombre": "Saint Pierre and Miquelon",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "San Pedro y Miquelón",
+            "nacionalidad": "sanpedrina",
             "iso_2": "PM",
-            "iso_3": "SPM"
+            "iso_3": "SPM",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 205,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Serbia",
-            "nacionalidad": "",
+            "nacionalidad": "serbia",
             "iso_2": "RS",
-            "iso_3": "SRB"
+            "iso_3": "SRB",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 206,
-        "fields": {
-            "nombre": "South Sudan",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Sudán del Sur",
+            "nacionalidad": "sursudanesa",
             "iso_2": "SS",
-            "iso_3": "SSD"
+            "iso_3": "SSD",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 207,
-        "fields": {
-            "nombre": "Sao Tome and Principe",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Santo Tomé y Príncipe",
+            "nacionalidad": "santomense",
             "iso_2": "ST",
-            "iso_3": "STP"
+            "iso_3": "STP",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 208,
-        "fields": {
-            "nombre": "Suriname",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Surinam",
+            "nacionalidad": "surinamesa",
             "iso_2": "SR",
-            "iso_3": "SUR"
+            "iso_3": "SUR",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 209,
-        "fields": {
-            "nombre": "Slovakia",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Eslovaquia",
+            "nacionalidad": "eslovaca",
             "iso_2": "SK",
-            "iso_3": "SVK"
+            "iso_3": "SVK",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 210,
-        "fields": {
-            "nombre": "Slovenia",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Eslovenia",
+            "nacionalidad": "eslovena",
             "iso_2": "SI",
-            "iso_3": "SVN"
+            "iso_3": "SVN",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 211,
-        "fields": {
-            "nombre": "Sweden",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Suecia",
+            "nacionalidad": "sueca",
             "iso_2": "SE",
-            "iso_3": "SWE"
+            "iso_3": "SWE",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 212,
-        "fields": {
-            "nombre": "Eswatini",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Esuatini",
+            "nacionalidad": "suazi",
             "iso_2": "SZ",
-            "iso_3": "SWZ"
+            "iso_3": "SWZ",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 213,
-        "fields": {
-            "nombre": "Sint Maarten (Dutch part)",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Sint Maarten",
+            "nacionalidad": "sintmaartense",
             "iso_2": "SX",
-            "iso_3": "SXM"
+            "iso_3": "SXM",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 214,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Seychelles",
-            "nacionalidad": "",
+            "nacionalidad": "seychellense",
             "iso_2": "SC",
-            "iso_3": "SYC"
+            "iso_3": "SYC",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 215,
-        "fields": {
-            "nombre": "Syrian Arab Republic",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Siria",
+            "nacionalidad": "siria",
             "iso_2": "SY",
-            "iso_3": "SYR"
+            "iso_3": "SYR",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 216,
-        "fields": {
-            "nombre": "Turks and Caicos Islands",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Islas Turcas y Caicos",
+            "nacionalidad": "turcocaiqueña",
             "iso_2": "TC",
-            "iso_3": "TCA"
+            "iso_3": "TCA",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 217,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Chad",
-            "nacionalidad": "",
+            "nacionalidad": "chadiana",
             "iso_2": "TD",
-            "iso_3": "TCD"
+            "iso_3": "TCD",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 218,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Togo",
-            "nacionalidad": "",
+            "nacionalidad": "togolesa",
             "iso_2": "TG",
-            "iso_3": "TGO"
+            "iso_3": "TGO",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 219,
-        "fields": {
-            "nombre": "Thailand",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Tailandia",
+            "nacionalidad": "tailandesa",
             "iso_2": "TH",
-            "iso_3": "THA"
+            "iso_3": "THA",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 220,
-        "fields": {
-            "nombre": "Tajikistan",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Tayikistán",
+            "nacionalidad": "tayika",
             "iso_2": "TJ",
-            "iso_3": "TJK"
+            "iso_3": "TJK",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 221,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Tokelau",
-            "nacionalidad": "",
+            "nacionalidad": "tokelauana",
             "iso_2": "TK",
-            "iso_3": "TKL"
+            "iso_3": "TKL",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 222,
-        "fields": {
-            "nombre": "Turkmenistan",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Turkmenistán",
+            "nacionalidad": "turkmena",
             "iso_2": "TM",
-            "iso_3": "TKM"
+            "iso_3": "TKM",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 223,
-        "fields": {
-            "nombre": "Timor-Leste",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Timor Oriental",
+            "nacionalidad": "timorense",
             "iso_2": "TL",
-            "iso_3": "TLS"
+            "iso_3": "TLS",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 224,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Tonga",
-            "nacionalidad": "",
+            "nacionalidad": "tongana",
             "iso_2": "TO",
-            "iso_3": "TON"
+            "iso_3": "TON",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 225,
-        "fields": {
-            "nombre": "Trinidad and Tobago",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Trinidad y Tobago",
+            "nacionalidad": "trinitense",
             "iso_2": "TT",
-            "iso_3": "TTO"
+            "iso_3": "TTO",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 226,
-        "fields": {
-            "nombre": "Tunisia",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Túnez",
+            "nacionalidad": "tunecina",
             "iso_2": "TN",
-            "iso_3": "TUN"
+            "iso_3": "TUN",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 227,
-        "fields": {
-            "nombre": "Türkiye",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Turquía",
+            "nacionalidad": "turca",
             "iso_2": "TR",
-            "iso_3": "TUR"
+            "iso_3": "TUR",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 228,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Tuvalu",
-            "nacionalidad": "",
+            "nacionalidad": "tuvaluana",
             "iso_2": "TV",
-            "iso_3": "TUV"
+            "iso_3": "TUV",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 229,
-        "fields": {
-            "nombre": "Taiwan, Province of China",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Taiwán",
+            "nacionalidad": "taiwanesa",
             "iso_2": "TW",
-            "iso_3": "TWN"
+            "iso_3": "TWN",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 230,
-        "fields": {
-            "nombre": "Tanzania, United Republic of",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Tanzania",
+            "nacionalidad": "tanzana",
             "iso_2": "TZ",
-            "iso_3": "TZA"
+            "iso_3": "TZA",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 231,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Uganda",
-            "nacionalidad": "",
+            "nacionalidad": "ugandesa",
             "iso_2": "UG",
-            "iso_3": "UGA"
+            "iso_3": "UGA",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 232,
-        "fields": {
-            "nombre": "Ukraine",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Ucrania",
+            "nacionalidad": "ucraniana",
             "iso_2": "UA",
-            "iso_3": "UKR"
+            "iso_3": "UKR",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 233,
-        "fields": {
-            "nombre": "United States Minor Outlying Islands",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Islas Ultramarinas Menores de EE.UU.",
+            "nacionalidad": "estadounidense",
             "iso_2": "UM",
-            "iso_3": "UMI"
+            "iso_3": "UMI",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 234,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Uruguay",
-            "nacionalidad": "",
+            "nacionalidad": "uruguaya",
             "iso_2": "UY",
-            "iso_3": "URY"
+            "iso_3": "URY",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 235,
-        "fields": {
-            "nombre": "United States",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Estados Unidos",
+            "nacionalidad": "estadounidense",
             "iso_2": "US",
-            "iso_3": "USA"
+            "iso_3": "USA",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 236,
-        "fields": {
-            "nombre": "Uzbekistan",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Uzbekistán",
+            "nacionalidad": "uzbeka",
             "iso_2": "UZ",
-            "iso_3": "UZB"
+            "iso_3": "UZB",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 237,
-        "fields": {
-            "nombre": "Holy See (Vatican City State)",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Ciudad del Vaticano",
+            "nacionalidad": "vaticana",
             "iso_2": "VA",
-            "iso_3": "VAT"
+            "iso_3": "VAT",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 238,
-        "fields": {
-            "nombre": "Saint Vincent and the Grenadines",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "San Vicente y las Granadinas",
+            "nacionalidad": "sanvicentina",
             "iso_2": "VC",
-            "iso_3": "VCT"
+            "iso_3": "VCT",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 239,
-        "fields": {
-            "nombre": "Venezuela, Bolivarian Republic of",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Venezuela",
+            "nacionalidad": "venezolana",
             "iso_2": "VE",
-            "iso_3": "VEN"
+            "iso_3": "VEN",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 240,
-        "fields": {
-            "nombre": "Virgin Islands, British",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Islas Vírgenes Británicas",
+            "nacionalidad": "virgenense británica",
             "iso_2": "VG",
-            "iso_3": "VGB"
+            "iso_3": "VGB",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 241,
-        "fields": {
-            "nombre": "Virgin Islands, U.S.",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Islas Vírgenes de EE.UU.",
+            "nacionalidad": "virgenense estadounidense",
             "iso_2": "VI",
-            "iso_3": "VIR"
+            "iso_3": "VIR",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 242,
-        "fields": {
-            "nombre": "Viet Nam",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Vietnam",
+            "nacionalidad": "vietnamita",
             "iso_2": "VN",
-            "iso_3": "VNM"
+            "iso_3": "VNM",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 243,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Vanuatu",
-            "nacionalidad": "",
+            "nacionalidad": "vanuatuense",
             "iso_2": "VU",
-            "iso_3": "VUT"
+            "iso_3": "VUT",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 244,
-        "fields": {
-            "nombre": "Wallis and Futuna",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Wallis y Futuna",
+            "nacionalidad": "wallisiana",
             "iso_2": "WF",
-            "iso_3": "WLF"
+            "iso_3": "WLF",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 245,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Samoa",
-            "nacionalidad": "",
+            "nacionalidad": "samoana",
             "iso_2": "WS",
-            "iso_3": "WSM"
+            "iso_3": "WSM",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 246,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Yemen",
-            "nacionalidad": "",
+            "nacionalidad": "yemení",
             "iso_2": "YE",
-            "iso_3": "YEM"
+            "iso_3": "YEM",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 247,
-        "fields": {
-            "nombre": "South Africa",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Sudáfrica",
+            "nacionalidad": "sudafricana",
             "iso_2": "ZA",
-            "iso_3": "ZAF"
+            "iso_3": "ZAF",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 248,
-        "fields": {
+        "fields": 
+        {
             "nombre": "Zambia",
-            "nacionalidad": "",
+            "nacionalidad": "zambiana",
             "iso_2": "ZM",
-            "iso_3": "ZMB"
+            "iso_3": "ZMB",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "taller.pais",
+        "model": "bibliohub.pais",
         "pk": 249,
-        "fields": {
-            "nombre": "Zimbabwe",
-            "nacionalidad": "",
+        "fields": 
+        {
+            "nombre": "Zimbabue",
+            "nacionalidad": "zimbabuense",
             "iso_2": "ZW",
-            "iso_3": "ZWE"
+            "iso_3": "ZWE",
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     }
 ]

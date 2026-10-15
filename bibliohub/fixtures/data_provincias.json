@@ -1,506 +1,730 @@
 [
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 1,
-        "fields": {
+        "fields": 
+        {
             "codigo": "011",
             "provincia": "Iquique",
-            "region_id": 1
+            "region_id": 1,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 2,
-        "fields": {
+        "fields": 
+        {
             "codigo": "014",
             "provincia": "Tamarugal",
-            "region_id": 1
+            "region_id": 1,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 3,
-        "fields": {
+        "fields": 
+        {
             "codigo": "021",
             "provincia": "Antofagasta",
-            "region_id": 2
+            "region_id": 2,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 4,
-        "fields": {
+        "fields": 
+        {
             "codigo": "022",
             "provincia": "El Loa",
-            "region_id": 2
+            "region_id": 2,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 5,
-        "fields": {
+        "fields": 
+        {
             "codigo": "023",
             "provincia": "Tocopilla",
-            "region_id": 2
+            "region_id": 2,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 6,
-        "fields": {
+        "fields": 
+        {
             "codigo": "031",
             "provincia": "Copiapó",
-            "region_id": 3
+            "region_id": 3,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 7,
-        "fields": {
+        "fields": 
+        {
             "codigo": "032",
             "provincia": "Chañaral",
-            "region_id": 3
+            "region_id": 3,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 8,
-        "fields": {
+        "fields": 
+        {
             "codigo": "033",
             "provincia": "Huasco",
-            "region_id": 3
+            "region_id": 3,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 9,
-        "fields": {
+        "fields": 
+        {
             "codigo": "041",
             "provincia": "Elqui",
-            "region_id": 4
+            "region_id": 4,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 10,
-        "fields": {
+        "fields": 
+        {
             "codigo": "042",
             "provincia": "Choapa",
-            "region_id": 4
+            "region_id": 4,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 11,
-        "fields": {
+        "fields": 
+        {
             "codigo": "043",
             "provincia": "Limarí",
-            "region_id": 4
+            "region_id": 4,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 12,
-        "fields": {
+        "fields": 
+        {
             "codigo": "051",
             "provincia": "Valparaíso",
-            "region_id": 5
+            "region_id": 5,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 13,
-        "fields": {
+        "fields": 
+        {
             "codigo": "052",
             "provincia": "Isla de Pascua",
-            "region_id": 5
+            "region_id": 5,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 14,
-        "fields": {
+        "fields": 
+        {
             "codigo": "053",
             "provincia": "Los Andes",
-            "region_id": 5
+            "region_id": 5,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 15,
-        "fields": {
+        "fields": 
+        {
             "codigo": "054",
             "provincia": "Petorca",
-            "region_id": 5
+            "region_id": 5,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 16,
-        "fields": {
+        "fields": 
+        {
             "codigo": "055",
             "provincia": "Quillota",
-            "region_id": 5
+            "region_id": 5,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 17,
-        "fields": {
+        "fields": 
+        {
             "codigo": "056",
             "provincia": "San Antonio",
-            "region_id": 5
+            "region_id": 5,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 18,
-        "fields": {
+        "fields": 
+        {
             "codigo": "057",
             "provincia": "San Felipe de Aconcagua",
-            "region_id": 5
+            "region_id": 5,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 19,
-        "fields": {
+        "fields": 
+        {
             "codigo": "058",
             "provincia": "Marga Marga",
-            "region_id": 5
+            "region_id": 5,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 20,
-        "fields": {
+        "fields": 
+        {
             "codigo": "061",
             "provincia": "Cachapoal",
-            "region_id": 6
+            "region_id": 6,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 21,
-        "fields": {
+        "fields": 
+        {
             "codigo": "062",
             "provincia": "Cardenal Caro",
-            "region_id": 6
+            "region_id": 6,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 22,
-        "fields": {
+        "fields": 
+        {
             "codigo": "092",
             "provincia": "Malleco",
-            "region_id": 9
+            "region_id": 9,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 23,
-        "fields": {
+        "fields": 
+        {
             "codigo": "063",
             "provincia": "Colchagua",
-            "region_id": 6
+            "region_id": 6,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 24,
-        "fields": {
+        "fields": 
+        {
             "codigo": "071",
             "provincia": "Talca",
-            "region_id": 7
+            "region_id": 7,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 25,
-        "fields": {
+        "fields": 
+        {
             "codigo": "072",
             "provincia": "Cauquenes",
-            "region_id": 7
+            "region_id": 7,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 26,
-        "fields": {
+        "fields": 
+        {
             "codigo": "073",
             "provincia": "Curicó",
-            "region_id": 7
+            "region_id": 7,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 27,
-        "fields": {
+        "fields": 
+        {
             "codigo": "074",
             "provincia": "Linares",
-            "region_id": 7
+            "region_id": 7,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 28,
-        "fields": {
+        "fields": 
+        {
             "codigo": "081",
             "provincia": "Concepción",
-            "region_id": 8
+            "region_id": 8,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 29,
-        "fields": {
+        "fields": 
+        {
             "codigo": "082",
             "provincia": "Arauco",
-            "region_id": 8
+            "region_id": 8,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 30,
-        "fields": {
+        "fields": 
+        {
             "codigo": "083",
             "provincia": "Biobío",
-            "region_id": 8
+            "region_id": 8,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 31,
-        "fields": {
+        "fields": 
+        {
             "codigo": "091",
             "provincia": "Cautín",
-            "region_id": 9
+            "region_id": 9,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 32,
-        "fields": {
+        "fields": 
+        {
             "codigo": "101",
             "provincia": "Llanquihue",
-            "region_id": 1
+            "region_id": 10,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 33,
-        "fields": {
+        "fields": 
+        {
             "codigo": "102",
             "provincia": "Chiloé",
-            "region_id": 1
+            "region_id": 10,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 34,
-        "fields": {
+        "fields": 
+        {
             "codigo": "103",
             "provincia": "Osorno",
-            "region_id": 1
+            "region_id": 10,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 35,
-        "fields": {
+        "fields": 
+        {
             "codigo": "104",
             "provincia": "Palena",
-            "region_id": 1
+            "region_id": 10,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 36,
-        "fields": {
+        "fields": 
+        {
             "codigo": "111",
             "provincia": "Coyhaique",
-            "region_id": 1
+            "region_id": 11,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 37,
-        "fields": {
+        "fields": 
+        {
             "codigo": "112",
             "provincia": "Aysén",
-            "region_id": 1
+            "region_id": 11,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 38,
-        "fields": {
+        "fields": 
+        {
             "codigo": "113",
             "provincia": "Capitán Prat",
-            "region_id": 1
+            "region_id": 11,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 39,
-        "fields": {
+        "fields": 
+        {
             "codigo": "114",
             "provincia": "General Carrera",
-            "region_id": 1
+            "region_id": 11,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 40,
-        "fields": {
+        "fields": 
+        {
             "codigo": "121",
             "provincia": "Magallanes",
-            "region_id": 1
+            "region_id": 12,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 41,
-        "fields": {
+        "fields": 
+        {
             "codigo": "122",
             "provincia": "Antártica Chilena",
-            "region_id": 1
+            "region_id": 12,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 42,
-        "fields": {
+        "fields": 
+        {
             "codigo": "123",
             "provincia": "Tierra del Fuego",
-            "region_id": 1
+            "region_id": 12,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 43,
-        "fields": {
+        "fields": 
+        {
             "codigo": "124",
             "provincia": "Última Esperanza",
-            "region_id": 1
+            "region_id": 12,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 44,
-        "fields": {
+        "fields": 
+        {
             "codigo": "131",
             "provincia": "Santiago",
-            "region_id": 1
+            "region_id": 13,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 45,
-        "fields": {
+        "fields": 
+        {
             "codigo": "132",
             "provincia": "Cordillera",
-            "region_id": 1
+            "region_id": 13,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 46,
-        "fields": {
+        "fields": 
+        {
             "codigo": "133",
             "provincia": "Chacabuco",
-            "region_id": 1
+            "region_id": 13,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 47,
-        "fields": {
+        "fields": 
+        {
             "codigo": "134",
             "provincia": "Maipo",
-            "region_id": 1
+            "region_id": 13,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 48,
-        "fields": {
+        "fields": 
+        {
             "codigo": "135",
             "provincia": "Melipilla",
-            "region_id": 1
+            "region_id": 13,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 49,
-        "fields": {
+        "fields": 
+        {
             "codigo": "136",
             "provincia": "Talagante",
-            "region_id": 1
+            "region_id": 13,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 50,
-        "fields": {
+        "fields": 
+        {
             "codigo": "141",
             "provincia": "Valdivia",
-            "region_id": 1
+            "region_id": 14,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 51,
-        "fields": {
+        "fields": 
+        {
             "codigo": "142",
             "provincia": "Ranco",
-            "region_id": 1
+            "region_id": 14,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 52,
-        "fields": {
+        "fields": 
+        {
             "codigo": "151",
             "provincia": "Arica",
-            "region_id": 1
+            "region_id": 15,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 53,
-        "fields": {
+        "fields": 
+        {
             "codigo": "152",
             "provincia": "Parinacota",
-            "region_id": 1
+            "region_id": 15,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 54,
-        "fields": {
+        "fields": 
+        {
             "codigo": "161",
             "provincia": "Diguillín",
-            "region_id": 1
+            "region_id": 16,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 55,
-        "fields": {
+        "fields": 
+        {
             "codigo": "162",
             "provincia": "Itata",
-            "region_id": 1
+            "region_id": 16,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     },
     {
-        "model": "biblio_app.provincia",
+        "model": "bibliohub.provincia",
         "pk": 56,
-        "fields": {
+        "fields": 
+        {
             "codigo": "163",
             "provincia": "Punilla",
-            "region_id": 1
+            "region_id": 16,
+            "habilitado": 1,
+            "created_at": "2026-10-14T22:29:32-03:00",
+            "updated_at": "2026-10-14T22:29:32-03:00"
         }
     }
 ]

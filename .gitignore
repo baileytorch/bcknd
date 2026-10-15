@@ -3,3 +3,15 @@
 core/__pycache__/settings.cpython-314.pyc
 core/__pycache__/urls.cpython-314.pyc
 .env
+bibliohub/__pycache__/__init__.cpython-314.pyc
+bibliohub/__pycache__/admin.cpython-314.pyc
+bibliohub/__pycache__/apps.cpython-314.pyc
+bibliohub/__pycache__/models.cpython-314.pyc
+bibliohub/__pycache__/views.cpython-314.pyc
+bibliohub/migrations/__pycache__/__init__.cpython-314.pyc
+bibliohub/migrations/__pycache__/0001_initial.cpython-314.pyc
+bibliohub/migrations/__pycache__/0002_alter_region_region.cpython-314.pyc
+drf/__pycache__/__init__.cpython-314.pyc
+drf/__pycache__/settings.cpython-314.pyc
+drf/__pycache__/urls.cpython-314.pyc
+drf/__pycache__/wsgi.cpython-314.pyc

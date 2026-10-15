@@ -8,6 +8,23 @@
 </head>
 
 <body>
+    <!-- NAVBAR -->
+
+    <nav>
+        <div class="logo">
+            <div class="logo-icon">📚</div>
+            Biblioteca
+        </div>
+
+        <div class="menu">
+            <a href="#">Inicio</a>
+            <a href="#">Libros</a>
+            <a href="#">Autores</a>
+            <a href="#">Categorías</a>
+            <a href="#" class="btn-login">Iniciar sesión</a>
+        </div>
+    </nav>
+
     <h1>{% block titulo_encabezado %}Bienvenido{%endblock %}</h1>
 
     {% block contenido %}
@@ -16,6 +33,13 @@
 
     {% endblock %}
 
+    <!-- FOOTER -->
+
+    <footer>
+        <strong>📚 Biblioteca Digital</strong>
+
+        <p>Sistema de gestión bibliotecaria</p>
+    </footer>
 </body>
 
 </html>

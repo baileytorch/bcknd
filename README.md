@@ -192,7 +192,51 @@
 
         - Para que se muestre una página de error creada por nosotros, dentro del directorio *templates* creado anteriormente, crearemos un archivo *html* de nombre *404*. Django buscará en este directorio ese archivo y lo cargará al no encontrar un recurso.
 
-9. **Modelo de Datos**
+9. **Manejo de Base de Datos**
+
+    Una base de datos en entornos profesionales debe controlarse con usuarios específicos con permisos otorgados explícitamente. Esto lo lograremos ejecutando sentencias SQL directamente en el motor de DB, de la siguiente forma:
+    - Crear usuario remoto 'Usuario' con contraseña 'mi_contraseña'
+        ```
+        CREATE USER 'Usuario'@'%' IDENTIFIED BY 'mi_contraseña';
+        ```
+
+    - Conceder privilegios para una base de datos específica al usuario remoto 'Usuario' (por ejemplo, 'mi_base_datos')
+        ```
+        GRANT ALL PRIVILEGES ON mi_base_datos.* TO 'Usuario'@'%';
+        ```
+
+    - Aplicar los cambios de privilegios (permisos)
+        ```
+        FLUSH PRIVILEGES;
+        ```
+
+    - ORM: Para comunicarnos con la DB usaremos un ORM (*Object Relational Mapping*), que se encargará de entender los objetos (por el lado del código) y las entidades (por el lado de la base de datos). 
+
+        | Código |          | Base de datos |
+        | -------- | -------- | -------- |
+        | Clase | <------> | Entidad |
+        | objeto | <------> | registro |
+
+    - Usaremos *SqlAlchemy* como *ORM*, junto con el driver de base de datos *mysqlclient*, los que se instalarán mediante la ejecución del siguiente comando en el terminal:
+        ```
+        pip install SQLAlchemy mysqlclient
+        ```
+
+    - Una vez con la base de datos creada, procedemos a modificar nuestro archivo settings.py. Indicamos que haremos uso del gestor MySQL, en vez de SQLite que usa por defecto Django, modificando la sección *DATABASES* del archivo *motor_django/settings.py*:
+    ```
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'mi_db',
+            'USER': 'mi_usuario',
+            'PASSWORD': 'mi_password',
+            'HOST': 'localhost',
+            'PORT': '3306'
+        }
+    }
+    ```
+
+10. **Modelo de Datos**
     - Django controlará la base de datos mediante migraciones, scripts de bases de datos que modificarán la estructura de datos.
     - Django maneja varias tablas de manera predeterminada para información interna, para que se creen en la DB, debemos ejecutar el comando:
         ```
@@ -266,53 +310,6 @@
         ```
 
     > Cada vez que modifiquemos el modelo de datos, crearemos una nueva migración y la aplicaremos a la base de datos para que se actualice de acuerdo a nuestro modelo.
-
-10. **Manejo de Base de Datos**
-
-    Una base de datos en entornos profesionales debe controlarse con usuarios específicos con permisos otorgados explícitamente. Esto lo lograremos ejecutando sentencias SQL directamente en el motor de DB, de la siguiente forma:
-    - Para un usuario remoto:
-        - Crear usuario remoto 'Usuario' con contraseña 'mi_contraseña'
-            ```
-            CREATE USER 'Usuario'@'%' IDENTIFIED BY 'mi_contraseña';
-            ```
-
-        - Conceder privilegios para una base de datos específica al usuario remoto 'Usuario' (por ejemplo, 'mi_base_datos')
-            ```
-            GRANT ALL PRIVILEGES ON mi_base_datos.* TO 'Usuario'@'%';
-            ```
-
-        - Aplicar los cambios de privilegios (permisos)
-            ```
-            FLUSH PRIVILEGES;
-            ```
-    
-    - Para un usuario local:
-        - Crear usuario local 'Usuario' con contraseña 'mi_contraseña'
-            ```
-            CREATE USER 'Usuario'@'localhost' IDENTIFIED BY 'mi_contraseña';
-            ```
-
-        - Conceder privilegios para una base de datos específica al usuario local 'Usuario' (por ejemplo, 'mi_base_datos')
-            ```
-            GRANT ALL PRIVILEGES ON mi_base_datos.* TO 'Usuario'@'localhost';
-            ```
-
-        - Aplicar los cambios de privilegios (permisos)
-            ```
-            FLUSH PRIVILEGES;
-            ```
-
-    - ORM: Para comunicarnos con la DB usaremos un ORM (*Object Relational Mapping*), que se encargará de entender los objetos (por el lado del código) y las entidades (por el lado de la base de datos). 
-
-        | Código |          | Base de datos |
-        | -------- | -------- | -------- |
-        | Clase | <------> | Entidad |
-        | objeto | <------> | registro |
-
-    - Usaremos *SqlAlchemy* como *ORM*, junto con el driver de base de datos *mysqlclient*, los que se instalarán mediante la ejecución del siguiente comando en el terminal:
-        ```
-        pip install SQLAlchemy mysqlclient
-        ```
 
 11. **Datos Iniciales de la Aplicación**
 

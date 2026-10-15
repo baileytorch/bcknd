@@ -1,7 +1,7 @@
 CREATE DATABASE bcknd;
 
-CREATE USER bcknd@'localhost' IDENTIFIED BY 'bcknd';
+CREATE USER 'bcknd'@'%' IDENTIFIED BY 'bcknd';
 
-GRANT ALL PRIVILEGES FROM bcknd.* TO bkcnd@'localhost';
+GRANT ALL PRIVILEGES ON bcknd.* TO 'bcknd'@'%';
 
 FLUSH PRIVILEGES;
