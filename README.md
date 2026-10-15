@@ -340,7 +340,7 @@
         ]
         ```
     
-    Donde *"pk"* es el campo *id* generado de manera automática por Django y *fields* serán los otros atributos de nuestro modelo.
+    Donde *"pk"* es el campo *id* generado de manera automática por Django y *fields* serán los atributos de nuestro modelo.
 
 12. **Desacoplar Datos Sensibles**
 
@@ -411,18 +411,17 @@
         ```
         from rest_framework import serializers
 
-        from .models import MiClase
-        from .models import MiClase2
+        from . import models
 
         class MiClaseSerializer(serializers.ModelSerializer):
             class Meta:
-                model = MiClase
+                model = models.MiClase
                 fields = ('__all__')
                 # __all__ serializa todas los atributos de la clase/modelo
 
         class MiClase2Serializer(serializers.ModelSerializer):
             class Meta:
-                model = MiClase2
+                model = models.MiClase2
                 fields = ('atributo_referenciado','atributo_2')
                 # De esta forma nosotros decidimos qué atributos de nuestra clase/modelo se serializarán
         ```
@@ -438,16 +437,16 @@
     El archivo debería quedar de la siguiente forma:
         ```
         from rest_framework import viewsets
-        from .models import MiClase, MiClase2
-        from .serializer import MiClaseSerializer, MiClase2Serializer
+        from . import models
+        from . import serializer
 
         class MiClaseViewSet(viewsets.ModelViewSet):
-            queryset = MiClase.objects.all()
-            serializer_class = MiClaseSerializer
+            queryset = models.MiClase.objects.all()
+            serializer_class = serializer.MiClaseSerializer
 
         class MiClase2ViewSet(viewsets.ModelViewSet):
-            queryset = MiClase2.objects.all()
-            serializer_class = MiClase2Serializer
+            queryset = models.MiClase2.objects.all()
+            serializer_class = serializer.MiClase2Serializer
         ```
     
 17. **Creación de Rutas**
@@ -667,7 +666,8 @@
             logout(request)
             # Redirige a la página de inicio de sesión
             return redirect('login')
-___   
+___
+**Control de Dependecias** 
 Para poder mantener las librerias actualizadas y estandarizadas para todo el equipo de desarrollo, crearemos un archivo de requerimientos con el siguiente comando:
 ```
 pip freeze > requirements.txt
@@ -679,3 +679,21 @@ pip install -r requirements.txt
 ```
 
 > Cada vez que agreguemos una nueva librería actualizaremos el archivo de requerimientos con el comando *FREEZE*.
+___
+**Control de Fechas Global**
+
+Si se necesita aplicar el mismo formato de fecha en toda la aplicación, debemos agregar un configuración global en *settings.py* como un diccionario llamado *REST_FRAMEWORK*.
+```
+REST_FRAMEWORK = {
+    'DATETIME_FORMAT': '%Y-%m-%d %H:%M:%S',
+    
+    # Formatos de entrada global aceptados por campos DateTimeFields
+    'DATETIME_INPUT_FORMATS': ['%d-%m-%Y %H:%M:%S', '%d-%m-%Y', 'iso-8601'],
+    
+    # Formato de salida global para campos DateFields
+    'DATE_FORMAT': '%d-%m-%Y',
+    
+    # Formatos de entrada global aceptados por campos DateFields
+    'DATE_INPUT_FORMATS': ['%d-%m-%Y'],
+}
+```

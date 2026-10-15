@@ -15,3 +15,5 @@ drf/__pycache__/__init__.cpython-314.pyc
 drf/__pycache__/settings.cpython-314.pyc
 drf/__pycache__/urls.cpython-314.pyc
 drf/__pycache__/wsgi.cpython-314.pyc
+bibliohub/__pycache__/serializer.cpython-314.pyc
+bibliohub/__pycache__/urls.cpython-314.pyc
