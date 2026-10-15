@@ -1,0 +1,322 @@
+[
+	{
+		"model": "bibliohub.idioma",
+		"pk": 1,
+		"fields": {
+			"idioma": "Afrikáans",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 2,
+		"fields": {
+			"idioma": "Alemán",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 3,
+		"fields": {
+			"idioma": "Árabe",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 4,
+		"fields": {
+			"idioma": "Armenio",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 5,
+		"fields": {
+			"idioma": "Bengalí",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 6,
+		"fields": {
+			"idioma": "Chino",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 7,
+		"fields": {
+			"idioma": "Coreano",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 8,
+		"fields": {
+			"idioma": "Danés",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 9,
+		"fields": {
+			"idioma": "Español",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 10,
+		"fields": {
+			"idioma": "Finés",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 11,
+		"fields": {
+			"idioma": "Francés",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 12,
+		"fields": {
+			"idioma": "Griego",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 13,
+		"fields": {
+			"idioma": "Hebreo",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 14,
+		"fields": {
+			"idioma": "Hindi",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 15,
+		"fields": {
+			"idioma": "Inglés",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 16,
+		"fields": {
+			"idioma": "Italiano",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 17,
+		"fields": {
+			"idioma": "Japonés",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 18,
+		"fields": {
+			"idioma": "Latín",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 19,
+		"fields": {
+			"idioma": "Mapudungun",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 20,
+		"fields": {
+			"idioma": "Neerlandés",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 21,
+		"fields": {
+			"idioma": "Noruego",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 22,
+		"fields": {
+			"idioma": "Persa",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 23,
+		"fields": {
+			"idioma": "Polaco",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 24,
+		"fields": {
+			"idioma": "Portugués",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 25,
+		"fields": {
+			"idioma": "Quechua",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 26,
+		"fields": {
+			"idioma": "Rumano",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 27,
+		"fields": {
+			"idioma": "Ruso",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 28,
+		"fields": {
+			"idioma": "Sueco",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 29,
+		"fields": {
+			"idioma": "Turco",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 30,
+		"fields": {
+			"idioma": "Ucraniano",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 31,
+		"fields": {
+			"idioma": "Urdu",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	},
+	{
+		"model": "bibliohub.idioma",
+		"pk": 32,
+		"fields": {
+			"idioma": "Vietnamita",
+			"habilitado": true,
+			"created_at": "2026-10-15T00:00:00-03:00",
+			"updated_at": "2026-10-15T00:00:00-03:00"
+		}
+	}
+]

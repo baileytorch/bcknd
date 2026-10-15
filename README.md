@@ -502,7 +502,40 @@
 
 20. **Inicio de Sesión con Django**
 
-    El sistema de autenticación incluido con Django se centra en el modelo User, lo que permite manejar cuentas de usuario, permisos, y tareas esenciales como login, logout, y control de contraseñas. 
+    El sistema de autenticación incluido con Django se centra en el modelo User, lo que permite manejar cuentas de usuario, permisos, y tareas esenciales como login, logout, y control de contraseñas.
+
+    # Extensión de User
+    Podemos crear nuestro propio modelo de usuario, pero si usamos el nativo podemos mantener todo el sistema de autenticación (como el inicio de sesión con login(), contraseñas, permisos) y, al mismo tiempo, agregar nuestros propios campos personalizados. La mejor práctica para lograrlo es extender el modelo de usuario utilizando AbstractUser, de la siguiente forma:
+    - Debemos definir el modelo personalizado en el archivo *mi_aplicacion/models.py* de tu aplicación, y heredar de AbstractUser:
+        ```
+        from django.contrib.auth.models import AbstractUser
+        from django.db import models
+
+        class MiUsuario(AbstractUser):
+            # Agrega tus propios campos aquí
+            telefono = models.CharField(max_length=20, blank=True, null=True)
+            fecha_nacimiento = models.DateField(blank=True, null=True)
+            biografia = models.TextField(blank=True)
+
+            def __str__(self):
+                return self.username
+        ```
+
+    - Debes indicarle a Django que use tu nuevo modelo en lugar del modelo por defecto. Añade la siguiente línea en tu archivo *motor_django/settings.py*:
+        ```
+        AUTH_USER_MODEL = 'mi_aplicacion.MiUsuario'
+        ```
+
+    - Para que puedas gestionar tus usuarios personalizados y ver tus nuevos campos desde el panel de administración de Django, usa *UserAdmin* para registrar tu modelo en *mi_aplicacion/admin.py*:
+        ```
+        from django.contrib import admin
+        from django.contrib.auth.admin import UserAdmin
+        from .models import MiUsuario
+
+        # Esto asegura que los campos heredados y los nuevos se muestren correctamente
+        admin.site.register(MiUsuario, UserAdmin)
+        ```
+
     Django provee vistas de autenticación y herramientas para todo lo relacionado.
     - Django proporciona URLs de autenticación listas para usar. Añádelas en el archivo urls.py de tu proyecto Django:
         ```

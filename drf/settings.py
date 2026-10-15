@@ -63,6 +63,7 @@ REST_FRAMEWORK = {
 }
 
 ROOT_URLCONF = 'drf.urls'
+AUTH_USER_MODEL = 'bibliohub.Usuario'
 
 TEMPLATES = [
     {
@@ -125,7 +126,7 @@ TIME_ZONE = 'America/Santiago'
 
 USE_I18N = True
 
-USE_TZ = False
+USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)

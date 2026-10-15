@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import AbstractUser
 
 str_habilitado = "Habilitado"
 str_fecha_creacion = "Fecha Creación"
@@ -179,17 +180,13 @@ class Inventario(models.Model):
     class Meta:
         db_table_comment = "Copias de un libro disponibles para préstamos en biblioteca."
 
-class Usuario(models.Model):
-    nombre = models.CharField(verbose_name=str_nombre,max_length=150,null=False,blank=False)
+class Usuario(AbstractUser):
     rut = models.CharField(verbose_name="RUT",max_length=12,null=False,blank=False)
-    correo = models.EmailField(verbose_name=str_email,null=True)
     telefono = models.CharField(verbose_name=str_telefono,max_length=15,null=True)
     nacionalidad = models.ForeignKey(Pais,on_delete=models.PROTECT,null=True)
     fecha_nacimiento = models.DateField(str_fecha_nac,null=False,blank=False)
-    contrasenia = models.CharField(verbose_name="Contraseña",max_length=128,null=True)
     direccion = models.ForeignKey(Direccion,on_delete=models.PROTECT,null=True)
     biblioteca = models.ForeignKey(Biblioteca,on_delete=models.PROTECT,null=False,blank=False)
-    habilitado = models.BooleanField(verbose_name=str_habilitado,default=True,null=False,blank=False)
     created_at = models.DateTimeField(verbose_name=str_fecha_creacion,auto_now_add=True)
     updated_at = models.DateTimeField(verbose_name=str_fecha_actualizacion,auto_now=True)
     class Meta:
