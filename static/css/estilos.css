@@ -1,0 +1,4 @@
+.carrusel{
+    background: url('your-image.jpg') center/cover; opacity: 0.4;
+    /* background-image: url(../images/fondo_biblio.jpg); */
+}

@@ -137,18 +137,48 @@ class Edicion(models.Model):
     class Meta:
         db_table_comment = "Data específica de una publicación realizada por una editorial."
 
+class Archivo(models.Model):
+    TIPOS = (
+        ("IMG", "Imagen"),
+        ("PDF", "PDF"),
+        ("EPUB", "EPUB"),
+        ("AUDIO", "Audiolibro"),
+        ("VIDEO", "Video"),
+    )
+    nombre = models.CharField(max_length=150)
+    url = models.URLField()
+    tipo = models.CharField(max_length=10,choices=TIPOS)
+    habilitado = models.BooleanField(default=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+    def __str__(self):
+        return self.nombre
+    class Meta:
+        db_table_comment = "Imágenes de portadas de libros pertenecientes a la biblioteca."
+
 class Libro(models.Model):
     titulo = models.CharField(verbose_name="Título",max_length=150,null=False,blank=False)
     paginas = models.IntegerField("Cantidad Páginas",null=False,blank=False)
+    sinopsis = models.TextField(verbose_name="Sinopsis",null=True,blank=True)
     autor = models.ForeignKey(Autor,on_delete=models.PROTECT,null=False,blank=False)
     subgenero = models.ForeignKey(SubGenero,on_delete=models.PROTECT,null=False,blank=False)
     edicion = models.ForeignKey(Edicion,on_delete=models.PROTECT,null=False,blank=False)
+    isbn = models.CharField(verbose_name="ISBN",max_length=17,unique=True,null=True,blank=True)
+    portada = models.ForeignKey(Archivo,on_delete=models.SET_NULL,null=True,blank=True,related_name="portadas_libros")    
     biblioteca = models.ForeignKey(Biblioteca,on_delete=models.PROTECT,null=False,blank=False)
     habilitado = models.BooleanField(verbose_name=str_habilitado,default=True,null=False,blank=False)
     created_at = models.DateTimeField(verbose_name=str_fecha_creacion,auto_now_add=True)
     updated_at = models.DateTimeField(verbose_name=str_fecha_actualizacion,auto_now=True)
+    def __str__(self):
+        return self.titulo
     class Meta:
         db_table_comment = "Data específica de libros publicados pertenecientes a la bilbioteca."
+
+class LibroArchivo(models.Model):
+    libro = models.ForeignKey(Libro,on_delete=models.CASCADE)
+    archivo = models.ForeignKey(Archivo,on_delete=models.CASCADE)
+    principal = models.BooleanField(default=False)
+    orden = models.IntegerField(default=1)
 
 class Estado(models.Model):
     estado = models.CharField(verbose_name="Estado",max_length=30,null=False,blank=False)

@@ -25,9 +25,9 @@ enrutador.register(r'prestamos', views.PrestamoViewSet)
 
 urlpatterns = [
     path('', include(enrutador.urls)),
-    path('paises/listado_paises', views.PaisListView.as_view(), name='listado_paises'),
-    path('paises/detalle_pais/<int:pk>/', views.PaisDetailView.as_view(), name='detalle_pais'),
-    path('paises/crear_pais/', views.PaisCreateView.as_view(), name='crear_pais'),
-    path('paises/editar_pais/<int:pk>/', views.PaisUpdateView.as_view(), name='editar_pais'),
-    path('paises/eliminar_pais/<int:pk>/', views.PaisDeleteView.as_view(), name='eliminar_pais'),
+    path('paises/listado_libros', views.LibroListView.as_view(), name='listado_libros'),
+    path('paises/detalle_libro/<int:pk>/', views.LibroDetailView.as_view(), name='detalle_libro'),
+    path('paises/crear_libro/', views.LibroCreateView.as_view(), name='crear_libro'),
+    path('paises/editar_libro/<int:pk>/', views.LibroUpdateView.as_view(), name='editar_libro'),
+    path('paises/eliminar_libro/<int:pk>/', views.LibroDeleteView.as_view(), name='eliminar_libro'),
 ]

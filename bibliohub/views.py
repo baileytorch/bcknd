@@ -9,34 +9,34 @@ from . import serializer
 def bienvenida(request):
     return render(request, 'bibliohub/bienvenida.html')
 
+def inicio(request):
+    context = {
+        "biblioteca": models.Biblioteca.objects.first(),
+        "total_libros": models.Libro.objects.filter(habilitado=True).count(),
+        "total_autores": models.Autor.objects.filter(habilitado=True).count(),
+        "total_generos": models.Genero.objects.filter(habilitado=True).count(),
+        "total_ejemplares": models.Inventario.objects.filter(habilitado=True).count(),
+        "libros": (
+            models.Libro.objects
+            .select_related(
+                "autor",
+                "subgenero",
+                "subgenero__genero"
+            )
+            .filter(habilitado=True)
+            .order_by("-created_at")[:6]
+        ),
+    }
+
+    return render(
+        request,
+        "bibliohub/inicio.html",
+        context
+    )
+
 class PaisViewSet(viewsets.ModelViewSet):
             queryset = models.Pais.objects.all()
             serializer_class = serializer.PaisSerializer
-
-class PaisListView(ListView):
-    model = models.Pais
-    template_name = 'bibliohub/paises/listado_paises.html'
-
-class PaisDetailView(DetailView):
-    model = models.Pais
-    template_name = 'bibliohub/paises/detalle_paises.html'
-
-class PaisCreateView(CreateView):
-    model = models.Pais
-    fields = ['nombre', 'precio', 'stock']
-    template_name = 'bibliohub/paises/formulario_pais.html'
-    success_url = reverse_lazy('listado_paises')
-
-class PaisUpdateView(UpdateView):
-    model = models.Pais
-    fields = ['nombre', 'precio', 'stock']
-    template_name = 'bibliohub/paises/formulario_pais.html'
-    success_url = reverse_lazy('listado_paises')
-
-class PaisDeleteView(DeleteView):
-    model = models.Pais
-    template_name = 'bibliohub/paises/confirmar_borrado_pais.html'
-    success_url = reverse_lazy('listado_paises')
 
 class RegionViewSet(viewsets.ModelViewSet):
             queryset = models.Region.objects.all()
@@ -85,6 +85,31 @@ class EdicionViewSet(viewsets.ModelViewSet):
 class LibroViewSet(viewsets.ModelViewSet):
             queryset = models.Libro.objects.all()
             serializer_class = serializer.LibroSerializer
+
+class LibroListView(ListView):
+    model = models.Libro
+    template_name = 'bibliohub/libros/listado_libros.html'
+
+class LibroDetailView(DetailView):
+    model = models.Libro
+    template_name = 'bibliohub/libros/detalle_libro.html'
+
+class LibroCreateView(CreateView):
+    model = models.Libro
+    fields = ['nombre', 'precio', 'stock']
+    template_name = 'bilbiohub/libros/formulario_libro.html'
+    success_url = reverse_lazy('listado_libros')
+
+class LibroUpdateView(UpdateView):
+    model = models.Libro
+    fields = ['nombre', 'precio', 'stock']
+    template_name = 'bilbiohub/libros/formulario_libro.html'
+    success_url = reverse_lazy('listado_libros')
+
+class LibroDeleteView(DeleteView):
+    model = models.Libro
+    template_name = 'bilbiohub/libros/confirmar_borrado_libro.html'
+    success_url = reverse_lazy('listado_libros')
 
 class EstadoViewSet(viewsets.ModelViewSet):
             queryset = models.Estado.objects.all()

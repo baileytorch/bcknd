@@ -20,3 +20,6 @@ bibliohub/__pycache__/urls.cpython-314.pyc
 bibliohub/migrations/__pycache__/0003_alter_usuario_managers_usuario_date_joined_and_more.cpython-314.pyc
 bibliohub/migrations/__pycache__/0004_remove_usuario_contrasenia_remove_usuario_correo_and_more.cpython-314.pyc
 bibliohub/migrations/__pycache__/0005_remove_usuario_habilitado.cpython-314.pyc
+bibliohub/migrations/__pycache__/0006_portada_libro_sinopsis_libroarchivo_libro_portada.cpython-314.pyc
+bibliohub/migrations/__pycache__/0007_rename_portada_archivo.cpython-314.pyc
+bibliohub/migrations/__pycache__/0008_libro_isbn.cpython-314.pyc

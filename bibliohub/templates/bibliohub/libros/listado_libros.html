@@ -2,19 +2,19 @@
 {% load static %}
 
 {% block titulo %}
-<title>Listado Paises</title>
+<title>Listado Libros</title>
 {% endblock %}
 
 {% block scripts %}
 <script src="{% static 'js/paises.js' %}"></script>{% endblock%}
 
-<h1>{% block titulo_encabezado %}Listado de Paises{% endblock %}</h1>
+<h1>{% block titulo_encabezado %}Listado de Libros{% endblock %}</h1>
 
 {% block contenido %}
 
-<a href="{% url 'crear_pais' %}" class="btn btn-primary" role="button">➕ Agregar País</a>
+<a href="{% url 'crear_libro' %}" class="btn btn-primary" role="button">➕ Agregar Libro</a>
 <hr>
-<table id="tabla_paises">
+<table id="tabla_libros">
     <thead>
         <tr>
             <th>Nombre</th>
@@ -25,12 +25,12 @@
         </tr>
     </thead>
     <tbody>
-        {% for pais in object_list %}
+        {% for libro in object_list %}
         <tr>
-            <td>{{ pais.nombre }}</td>
-            <td>{{ pais.nacionalidad }}</td>
-            <td>{{ pais.iso_2 }}</td>
-            <td>{{ pais.iso_3 }}</td>
+            <td>{{ libro.nombre }}</td>
+            <td>{{ libro.nacionalidad }}</td>
+            <td>{{ libro.iso_2 }}</td>
+            <td>{{ libro.iso_3 }}</td>
             <td>
                 <a href="{% url 'detalle_pais' pais.pk %}">👁️ Ver</a> |
                 <a href="{% url 'editar_pais' pais.pk %}">✏️ Editar</a> |

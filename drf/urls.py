@@ -20,6 +20,6 @@ from bibliohub import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.bienvenida, name='bienvenida'),
+    path('', views.inicio, name='bienvenida'),
     path('bibliohub/', include('bibliohub.urls'))
 ]
