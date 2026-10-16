@@ -24,5 +24,10 @@ enrutador.register(r'usuarios', views.UsuarioViewSet)
 enrutador.register(r'prestamos', views.PrestamoViewSet)
 
 urlpatterns = [
-    path('', include(enrutador.urls))
+    path('', include(enrutador.urls)),
+    path('paises/listado_paises', views.PaisListView.as_view(), name='listado_paises'),
+    path('paises/detalle_pais/<int:pk>/', views.PaisDetailView.as_view(), name='detalle_pais'),
+    path('paises/crear_pais/', views.PaisCreateView.as_view(), name='crear_pais'),
+    path('paises/editar_pais/<int:pk>/', views.PaisUpdateView.as_view(), name='editar_pais'),
+    path('paises/eliminar_pais/<int:pk>/', views.PaisDeleteView.as_view(), name='eliminar_pais'),
 ]

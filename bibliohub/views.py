@@ -1,5 +1,8 @@
 from django.shortcuts import render
 from rest_framework import viewsets
+from django.urls import reverse_lazy
+from django.views.generic import ListView, DetailView
+from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from . import models
 from . import serializer
 
@@ -9,6 +12,31 @@ def bienvenida(request):
 class PaisViewSet(viewsets.ModelViewSet):
             queryset = models.Pais.objects.all()
             serializer_class = serializer.PaisSerializer
+
+class PaisListView(ListView):
+    model = models.Pais
+    template_name = 'bibliohub/paises/listado_paises.html'
+
+class PaisDetailView(DetailView):
+    model = models.Pais
+    template_name = 'bibliohub/paises/detalle_paises.html'
+
+class PaisCreateView(CreateView):
+    model = models.Pais
+    fields = ['nombre', 'precio', 'stock']
+    template_name = 'bibliohub/paises/formulario_pais.html'
+    success_url = reverse_lazy('listado_paises')
+
+class PaisUpdateView(UpdateView):
+    model = models.Pais
+    fields = ['nombre', 'precio', 'stock']
+    template_name = 'bibliohub/paises/formulario_pais.html'
+    success_url = reverse_lazy('listado_paises')
+
+class PaisDeleteView(DeleteView):
+    model = models.Pais
+    template_name = 'bibliohub/paises/confirmar_borrado_pais.html'
+    success_url = reverse_lazy('listado_paises')
 
 class RegionViewSet(viewsets.ModelViewSet):
             queryset = models.Region.objects.all()

@@ -192,7 +192,21 @@
 
         - Para que se muestre una página de error creada por nosotros, dentro del directorio *templates* creado anteriormente, crearemos un archivo *html* de nombre *404*. Django buscará en este directorio ese archivo y lo cargará al no encontrar un recurso.
 
-9. **Manejo de Base de Datos**
+9 **Manejo de Archivos Estáticos**    
+    El manejo de archivos estáticos en Django (como CSS, JavaScript e imágenes) se configura mediante variables en el archivo *motor_django/settings.py* y se utiliza en las plantillas HTML a través de la etiqueta *{% load static %}*.
+    - Asegúrate de que en tu archivo *motor_django/settings.py* esté configurado el STATIC_URL:
+        ```
+        STATIC_URL = 'static/'
+
+        # Opcional: Directorios globales adicionales para archivos estáticos
+        STATICFILES_DIRS = [
+            BASE_DIR / "static",
+        ]
+        ```
+    
+    - Puedes poner tus archivos estáticos en un directorio dentro de tu aplicación o en la carpeta raíz del proyecto, creando un subdirectorio *static*, y dentro de ese directorio, generar las carpetas que sean necesarios para mantener el orden del sistema y separar distintos tipos de archivos.
+
+10. **Manejo de Base de Datos**
 
     Una base de datos en entornos profesionales debe controlarse con usuarios específicos con permisos otorgados explícitamente. Esto lo lograremos ejecutando sentencias SQL directamente en el motor de DB, de la siguiente forma:
     - Crear usuario remoto 'Usuario' con contraseña 'mi_contraseña'
@@ -236,7 +250,7 @@
     }
     ```
 
-10. **Modelo de Datos**
+11. **Modelo de Datos**
     - Django controlará la base de datos mediante migraciones, scripts de bases de datos que modificarán la estructura de datos.
     - Django maneja varias tablas de manera predeterminada para información interna, para que se creen en la DB, debemos ejecutar el comando:
         ```
@@ -311,7 +325,7 @@
 
     > Cada vez que modifiquemos el modelo de datos, crearemos una nueva migración y la aplicaremos a la base de datos para que se actualice de acuerdo a nuestro modelo.
 
-11. **Datos Iniciales de la Aplicación**
+12. **Datos Iniciales de la Aplicación**
 
     Al estar definida nuestra base de datos y aplicadas las migraciones de nuestro modelo de datos, tenemos la estructura de datos requerida para alojar nuestros registros.
     En este punto será importante contar con datos genéricos iniciales de la aplicación, como listas o parámetros que deben estar pre-cargados.
@@ -342,7 +356,7 @@
     
     Donde *"pk"* es el campo *id* generado de manera automática por Django y *fields* serán los atributos de nuestro modelo.
 
-12. **Desacoplar Datos Sensibles**
+13. **Desacoplar Datos Sensibles**
 
     Ahora que ya estamos trabajando con una DB externa, debemos usar credenciales para conectarnos a esta nueva DB. Cualquier credencial o dato sensible no debería existir en código, incluyendo la *'SECRET_KEY'* de Django, por lo que debemos *DESACOPLAR* esos datos y ponerlos en un archivo de ambiente.
     - Instalamos la librería *decouple* para desacoplar los datos y posteriormente leerlos desde un archivo de ambiente. El siguiente comando será necesario para instalar la librería:
@@ -367,7 +381,7 @@
     El método *config* traerá el valor de la variable almacenada en el archivo de ambiente que tenga el nombre que le pasamos al método como argumento.
     El mismo procedimiento debemos usar para procesar la información de la base de datos.
 
-13. **Instalación Django Rest Framework**
+14. **Instalación Django Rest Framework**
 
     Django Rest Framework es una librería que contiene muchas herramientas que usaremos en nuestro desarrollo django, como los serializadores.
     Para instalarlo ejecutaremos el siguiente comando mediante terminal:
@@ -384,7 +398,7 @@
         ]
         ```
     
-14. **Incorporar Modelo de Datos al administrador de Django**
+15. **Incorporar Modelo de Datos al administrador de Django**
 
     En el archivo *mi_aplicacion/admin.py* debemos *REGISTRAR* nuestro modelo de datos, para que el admin de django pueda procesar los datos.
     Esto lo lograremos de la siguiente forma:
@@ -399,7 +413,7 @@
         admin.site.register(MiClase2)
         ```
 
-15. **Creación de Serializadores**
+16. **Creación de Serializadores**
 
     La librería *rest_framework* que instalamos anteriormente, tiene la herramienta para serializar nuestro modelo de datos en formato *JSON*, que será necesario para trabajar los datos en la aplicación web, lo que lograremos siguiendo estos pasos:
     - Primero crearemos un archivo *serializer.py* en el directorio de nuestra aplicación.
@@ -426,7 +440,7 @@
                 # De esta forma nosotros decidimos qué atributos de nuestra clase/modelo se serializarán
         ```
 
-16. **Creación de Vistas CBV**
+17. **Creación de Vistas CBV**
 
     CBV es el acrónimo de Class Based View o *Vista Basada en Clase*, es una colección de vistas basadas en un modelo de datos y que nos permiten hacer *CRUD* de los datos de ese modelo.
     Las vistas basadas en clase se crearán dentro de *mi_aplicacion/views.py*, nuestro archivo controlador, siguiendo las siguientes instrucciones:
@@ -449,7 +463,7 @@
             serializer_class = serializer.MiClase2Serializer
         ```
     
-17. **Creación de Rutas**
+18. **Creación de Rutas**
 
     Los ViewSet que creamos en el paso anterior generan las vistas y métodos para hacer el *CRUD* de nuestros datos con métodos *HTTP/S* de tipo *POST*, *GET*, *PUT/PATCH* o *DELETE*, pero ahora necesitamos llegar hasta esos métodos o *END-POINTS*, por lo que debemos generar las rutas necesarias.
     - En el directorio de nuestra aplicación creamos un nuevo archivo *urls.py*, donde gestionaremos todas las rutas necesarias para nuestro modelo de datos completo.
@@ -473,7 +487,7 @@
     - La *r* delante del string para generar la ruta es para evitar saltos de línea generados cuando se crea la ruta, es un tipo de dato *RAW* de Python.
     - El *urlpatterns* incluirá todas las rutas generadas dentro del enrutador y será necesario para enviarlas a *motor_django/urls.py*.
 
-18. **Incorporación de rutas a Django**
+19. **Incorporación de rutas a Django**
 
     - Para que las rutas generadas en la aplicación queden disponibles dentro de *django/urls.py*, debemos importarlas e incluirlas, de la siguiente forma:
         ```
@@ -490,23 +504,13 @@
     
     - Con todo lo anterior, ya podemos iniciar nuestra aplicación, dirigirnos a: *http://127.0.0.1:8000/mi_aplicacion/* y comenzar a hacer *CRUD* de nuestros modelos.
 
-19. **Crear un Usuario Admin de Django**
-
-    El usuario *ADMIN* de Django es el que tendrá control administrativo de la aplicación y también podrá hacer *CRUD* de nuestro modelo de datos.
-    Para crearlo, ejecutaremos el siguiente comando mediante nuestro terminal:
-    ```
-    python manage.py createsuperuser
-    ```
-
-    Una vez que jecutamos el comando, este nos pedirá la información del usuario mediante el mismo terminal.
-
 20. **Inicio de Sesión con Django**
 
     El sistema de autenticación incluido con Django se centra en el modelo User, lo que permite manejar cuentas de usuario, permisos, y tareas esenciales como login, logout, y control de contraseñas.
 
-    # Extensión de User
+    ### Extensión de User
     Podemos crear nuestro propio modelo de usuario, pero si usamos el nativo podemos mantener todo el sistema de autenticación (como el inicio de sesión con login(), contraseñas, permisos) y, al mismo tiempo, agregar nuestros propios campos personalizados. La mejor práctica para lograrlo es extender el modelo de usuario utilizando AbstractUser, de la siguiente forma:
-    - Debemos definir el modelo personalizado en el archivo *mi_aplicacion/models.py* de tu aplicación, y heredar de AbstractUser:
+    - Debemos definir el modelo personalizado en el archivo *mi_aplicacion/models.py*, y heredar de AbstractUser:
         ```
         from django.contrib.auth.models import AbstractUser
         from django.db import models
@@ -700,7 +704,18 @@
             # Redirige a la página de inicio de sesión
             return redirect('login')
 ___
+**Crear un Usuario Admin de Django**
+
+    El usuario *ADMIN* de Django es el que tendrá control administrativo de la aplicación y también podrá hacer *CRUD* de nuestro modelo de datos.
+    Para crearlo, ejecutaremos el siguiente comando mediante nuestro terminal:
+    ```
+    python manage.py createsuperuser
+    ```
+
+    Una vez que jecutamos el comando, este nos pedirá la información del usuario mediante el mismo terminal.
+___
 **Control de Dependecias** 
+
 Para poder mantener las librerias actualizadas y estandarizadas para todo el equipo de desarrollo, crearemos un archivo de requerimientos con el siguiente comando:
 ```
 pip freeze > requirements.txt

@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block titulo %}
+<title>Listado Paises</title>
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'js/paises.js' %}"></script>{% endblock%}
+
+<h1>{% block titulo_encabezado %}Listado de Paises{% endblock %}</h1>
+
+{% block contenido %}
+
+<a href="{% url 'crear_pais' %}" class="btn btn-primary" role="button">➕ Agregar País</a>
+<hr>
+<table id="tabla_paises">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Nacionalidad</th>
+            <th>ISO 2</th>
+            <th>ISO 3</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for pais in object_list %}
+        <tr>
+            <td>{{ pais.nombre }}</td>
+            <td>{{ pais.nacionalidad }}</td>
+            <td>{{ pais.iso_2 }}</td>
+            <td>{{ pais.iso_3 }}</td>
+            <td>
+                <a href="{% url 'detalle_pais' pais.pk %}">👁️ Ver</a> |
+                <a href="{% url 'editar_pais' pais.pk %}">✏️ Editar</a> |
+                <a href="{% url 'eliminar_pais' pais.pk %}">❌ Eliminar</a>
+            </td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="4">No hay paises registrados.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+    <tfoot>
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Nacionalidad</th>
+            <th scope="col">ISO 2</th>
+            <th scope="col">ISO 3</th>
+            <th scope="col">Acciones</th>
+        </tr>
+    </tfoot>
+</table>
+{% endblock %}
